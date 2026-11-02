@@ -23,7 +23,7 @@ function select (languages, language = "", hash = "", codes = ["it", "en"]) {
 		document: {
 			querySelectorAll: () => codes.map((code) => ({
 				hreflang: code,
-				href: `https://example.invalid/subfolder/${code}/index.html`,
+				href: `${code}/index.html`,
 			})),
 		},
 	};
@@ -37,16 +37,16 @@ function select (languages, language = "", hash = "", codes = ["it", "en"]) {
 }
 
 test("uses the first supported browser preference, including regional tags", () => {
-	assert.equal(select(["fr-FR", "IT-it", "en"]), "https://example.invalid/subfolder/it/index.html");
-	assert.equal(select(["en-US", "it-IT"]), "https://example.invalid/subfolder/en/index.html");
+	assert.equal(select(["fr-FR", "IT-it", "en"]), "it/index.html");
+	assert.equal(select(["en-US", "it-IT"]), "en/index.html");
 });
 test("falls back to navigator.language and then English", () => {
-	assert.equal(select(undefined, "it-CH"), "https://example.invalid/subfolder/it/index.html");
-	assert.equal(select([], "de-DE"), "https://example.invalid/subfolder/en/index.html");
-	assert.equal(select([]), "https://example.invalid/subfolder/en/index.html");
+	assert.equal(select(undefined, "it-CH"), "it/index.html");
+	assert.equal(select([], "de-DE"), "en/index.html");
+	assert.equal(select([]), "en/index.html");
 });
 test("uses generated links when more languages become available", () => {
-	assert.equal(select(["fr-CA"], "", "", ["it", "en", "fr"]), "https://example.invalid/subfolder/fr/index.html");
+	assert.equal(select(["fr-CA"], "", "", ["it", "en", "fr"]), "fr/index.html");
 });
 test("manual choice bypasses redirection and missing links do not cause a loop", () => {
 	assert.equal(select(["it"], "", "#choose"), undefined);

@@ -133,6 +133,7 @@ struct Policy<'a> {
 #[derive(Template)]
 #[template(path = "languages.html")]
 struct LanguageChoice<'a> {
+	language_script: &'static str,
 	languages: &'a [(String, Texts)],
 	seo: Seo<'a>,
 }
@@ -250,18 +251,12 @@ fn generate() -> Result<()> {
 		})
 		.collect::<Result<Vec<_>>>()?;
 	let choice = LanguageChoice {
+		language_script: include_str!("../static/language.js"),
 		languages: &languages,
 		seo: Seo {
 			base_url: &site.base_url,
 			url: format!("{}/", site.base_url),
-			title: format!(
-				"IBIS — {}",
-				languages
-					.iter()
-					.map(|(_, texts)| texts.chooser_title.as_str())
-					.collect::<Vec<_>>()
-					.join(" / ")
-			),
+			title: languages[0].1.company_name.clone(),
 			description: &languages[0].1.chooser_intro,
 			is_home: true,
 		},

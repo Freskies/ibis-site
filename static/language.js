@@ -2,7 +2,8 @@
 (() => {
 	if (window.location.hash === "#choose") return;
 
-	const links = Array.from(document.querySelectorAll(".choice-links a[hreflang]"));
+	const links = Array.from(document.querySelectorAll('link[rel="alternate"][hreflang]:not([hreflang="x-default"])'))
+		.map((item) => ({ hreflang: item.hreflang, href: item.hreflang + "/index.html" }));
 	const preferences = navigator.languages?.length
 		? navigator.languages
 		: [navigator.language || ""];

@@ -13,7 +13,10 @@ Servono Rust/Cargo con supporto all’edizione 2024.
     cargo run --release
 
 Apri dist/index.html nel browser. La lingua viene scelta automaticamente;
-dist/index.html#choose mantiene la scelta manuale. I link relativi funzionano
+dist/index.html#choose mantiene la scelta manuale. Il redirect è incorporato
+nella testa dell’HTML e parte prima del contenuto, senza attendere script esterni.
+I link restano disponibili se JavaScript è disattivato; titolo e metadati
+dell’ingresso descrivono l’azienda anche nelle anteprime dei link. I link relativi funzionano
 anche da file locali. In alternativa, se Python è già installato:
 
     python -m http.server 8000 --directory dist --bind 127.0.0.1

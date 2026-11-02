@@ -143,7 +143,13 @@ test("Link, ancore, asset e assenza di risorse esterne o tracking", () => {
     }
     const scripts = byTag(nodes, "script");
     assert.equal(scripts.length, 1);
-    assert.equal(scripts[0].attrs.src, file === join(root, "index.html") ? "assets/language.js" : "../assets/navigation.js");
+    if (file === join(root, "index.html")) {
+      assert.equal(scripts[0].attrs.src, undefined);
+      assert.equal(scripts[0].parent.tag, "head");
+      assert.equal(scripts[0].text.trim(), read(join(root, "assets/language.js")).trim());
+    } else {
+      assert.equal(scripts[0].attrs.src, "../assets/navigation.js");
+    }
   }
   for (const file of files(resolve(__dirname, "../static"))) {
     assert.deepEqual(readFileSync(file), readFileSync(join(root, "assets", relative(resolve(__dirname, "../static"), file))));
