@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block content %}
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="green-rule" aria-hidden="true"></span>{{ texts.hero_eyebrow }}</p>
+      <h1 id="hero-title">{{ texts.hero_title }}</h1>
+      <p class="hero-intro">{{ texts.hero_intro }}</p>
+      <div class="hero-actions">
+        <a class="text-link" href="#prodotti">{{ texts.hero_link }}</a>
+        <a class="contact-button" href="#contatti">{{ texts.hero_contact }}</a>
+      </div>
+    </div>
+    <div class="brand-panel">
+      <div class="panel-top"><span>{{ texts.location }}</span></div>
+      <img src="../assets/logo-vertical-white.svg" alt="" aria-hidden="true" width="400" height="435">
+      <p class="panel-bottom">{{ texts.since }}</p>
+    </div>
+  </section>
+  <section id="azienda" class="about section wrap" aria-labelledby="about-title">
+    <div class="section-heading"><h2 id="about-title">{{ texts.about_title }}</h2></div>
+    <div class="about-copy">{% for paragraph in texts.about_paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</div>
+  </section>
+  <section id="prodotti" class="products-band" aria-labelledby="products-title">
+    <div class="section wrap">
+      <div class="section-heading"><h2 id="products-title">{{ texts.products_title }}</h2></div>
+      <div class="products-content">
+        <p class="section-intro">{{ texts.products_intro }}</p>
+        <dl class="product-list">{% for product in texts.products %}<div><dt>{{ product.name }}</dt><dd>{{ product.detail }}</dd></div>{% endfor %}</dl>
+      </div>
+    </div>
+  </section>
+  <section id="attivita" class="services section wrap" aria-labelledby="services-title">
+    <div class="section-heading"><h2 id="services-title">{{ texts.services_title }}</h2></div>
+    <div class="services-content">
+      <p class="section-intro">{{ texts.services_intro }}</p>
+      <ul class="service-list" role="list">{% for service in texts.services %}<li><img class="service-bullet" src="../assets/logo-mini.svg" alt="" aria-hidden="true" width="280" height="280" loading="lazy"><h3>{{ service.title }}</h3><p>{{ service.text }}</p></li>{% endfor %}</ul>
+    </div>
+  </section>
+  <section id="contatti" class="contact-band" aria-labelledby="contact-title">
+    <div class="section wrap">
+      <div class="section-heading"><h2 id="contact-title">{{ texts.contact_title }}</h2></div>
+      <div class="contact-content">
+        <p class="contact-company">{{ texts.company_name }}</p>
+        <p>{{ texts.contact_location_label }}</p>
+        <address>{{ texts.address }}</address>
+        <ul class="contact-list" role="list">
+          {% for contact in texts.contacts %}
+          <li>
+            <h3>{{ contact.name }}</h3>
+            <div class="contact-methods">
+              <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+              <a href="tel:{{ contact.phone }}">{{ contact.phone_label }}</a>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+

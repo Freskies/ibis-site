@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#173F56">
+	{% include "metadata.html" %}
+	<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+	<link rel="stylesheet" href="../assets/palette.css">
+	<link rel="stylesheet" href="../assets/style.css">
+	<script src="../assets/navigation.js" defer></script>
+</head>
+<body id="top">
+<a class="skip-link" href="#main">{{ texts.skip_link }}</a>
+<header class="site-header">
+	<div class="header-inner wrap">
+		<a class="brand" href="index.html#top" aria-label="{{ texts.home_label }}"><img
+			src="../assets/logo-horizontal.svg" alt="{{ texts.company_name }}" width="620" height="300"></a>
+		<nav class="main-nav" aria-label="{{ texts.main_navigation }}">
+			<a href="index.html#azienda">{{ texts.about_title }}</a>
+			<a href="index.html#prodotti">{{ texts.products_title }}</a>
+			<a href="index.html#attivita">{{ texts.services_title }}</a>
+			<a href="index.html#contatti">{{ texts.contact_title }}</a>
+		</nav>
+		<nav class="language-nav" aria-label="{{ texts.language_navigation }}">
+			{% for (code, translation) in languages %}
+			<a href="../{{ code }}/{{ page_filename }}" lang="{{ code }}" hreflang="{{ code }}"
+			   aria-label="{{ translation.language_name }}" {% if code== lang %} aria-current="page" {% endif %}>{{
+				translation.language_short }}</a>
+			{% endfor %}
+		</nav>
+	</div>
+</header>
+<main id="main" tabindex="-1">{% block content %}{% endblock %}</main>
+<footer class="site-footer">
+	<div class="wrap footer-inner">
+		<div class="footer-company" itemscope itemtype="https://schema.org/Organization">
+			<strong itemprop="name">{{ texts.company_name }}</strong>
+			<address itemprop="address">{{ texts.address }}</address>
+			{% for detail in texts.company_details %}<p>{{ detail }}</p>{% endfor %}
+		</div>
+		<a href="privacy.html">{{ texts.policy_link }}</a>
+	</div>
+</footer>
+</body>
+</html>

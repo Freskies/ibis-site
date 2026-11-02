@@ -1,0 +1,106 @@
+# Traduzione di lavoro dei testi italiani del cliente: da validare.
+language_name = "English"
+language_short = "EN"
+page_title = "IBIS Srl — Export management for Italian fruit"
+description = "Since 1994, IBIS Srl has managed exports of 100% Italian fresh fruit. Based in Ravenna, connecting Italian producers with international markets."
+skip_link = "Skip to content"
+home_label = "IBIS — top of page"
+main_navigation = "Main navigation"
+language_navigation = "Language selection"
+chooser_title = "Choose your language"
+chooser_intro = "IBIS Srl — Export management for Italian fruit."
+company_name = "IBIS Srl"
+hero_eyebrow = "IBIS SRL"
+hero_title = "Export management for Italian fruit."
+hero_intro = "Since 1994, IBIS Srl has operated in the export of 100% Italian fresh fruit."
+hero_link = "Our products"
+hero_contact = "Contact us"
+location = "Ravenna, Italy"
+since = "Since 1994"
+about_title = "About us"
+about_paragraphs = [
+  "Based in Ravenna, in the heart of Emilia-Romagna on the Adriatic coast, the company manages international customers on behalf of selected suppliers, cooperatives and private producers from various Italian regions, with whom it has worked continuously since its foundation.",
+  "Our constant attention to markets, focus on innovation and care for detail have enabled us to represent leading companies in the sector and operate in more than 20 countries worldwide."
+]
+products_title = "Our products"
+products_intro = "Our core products are apples and kiwifruit, complemented by the full range of stone fruit."
+services_title = "What we do"
+services_intro = "We are the bridge between the best Italian producers and international markets."
+contact_title = "Contact"
+contact_location_label = "Operating office"
+
+address = "Viale Francesco Baracca 89, 48121 Ravenna (RA), Italy"
+company_details = [
+  "VAT and tax ID: IT01286410392 / 01286410392",
+  "REA: RA – 133634",
+  "Share capital: € 30,000.00"
+]
+policy_link = "Cookie and privacy policy"
+[[products]]
+name = "Apples & kiwifruit"
+detail = "Our core products."
+
+[[products]]
+name = "Stone fruit"
+detail = "Peaches, nectarines, apricots, plums and cherries."
+
+[[products]]
+name = "Seedless grapes"
+detail = "We have recently been developing very interesting projects with new seedless grape varieties."
+
+[[services]]
+title = "Analysis and strategy"
+text = "We identify the most promising international markets for your products. Through targeted market research, we analyse competitors, prices and trends, and define an effective commercial strategy for entering the target market."
+
+[[services]]
+title = "Business development"
+text = "We identify and directly contact qualified buyers, distributors and wholesalers. We manage commercial negotiations through to closing the deal and establishing strong, lasting partnerships."
+
+[[services]]
+title = "On-the-ground presence"
+text = "We attend major international trade fairs to build new networks and identify business opportunities. We organise business trips and B2B meetings, both abroad with customers and in Italy at our suppliers’ premises."
+
+[[services]]
+title = "Complete operational management"
+text = "We provide comprehensive administrative, operational and logistical support. We coordinate sales and marketing with production and logistics, simplifying the entire export process."
+
+
+[[contacts]]
+name = "Isabella Tebaldi"
+email = "Isabel@ibissrl.it"
+phone = "+39335235488"
+phone_label = "+39 335 235488"
+
+[[contacts]]
+name = "Al Hassan Zaher"
+email = "Ahzaher@ibissrl.it"
+phone = "+201061318885"
+phone_label = "+20 106 1318885"
+
+[policy]
+description = "Privacy information, contact details and cookie-free, tracking-free operation of the IBIS Srl website."
+title = "Cookie and privacy policy"
+intro = "Information about the IBIS Srl website and available contact details."
+
+[[policy.sections]]
+title = "Controller and contact details"
+text = "This website presents IBIS Srl. The address published on the company’s website is Viale Francesco Baracca 89, 48121 Ravenna (RA), Italy. Personal data enquiries can be sent to Isabel@ibissrl.it."
+
+[[policy.sections]]
+title = "Cookies and tracking tools"
+text = "This version consists of static pages: it sets no cookies and uses no localStorage, analytics, advertising pixels or embedded third-party content. The entry page reads the language preferences exposed by the browser and opens the first available version in the preferred order; English is used if none match. Selection happens in the browser and is neither stored nor sent to external services. Standard links always allow manual language changes. This function uses no cookies, sessionStorage or other persistent storage."
+
+[[policy.sections]]
+title = "Browsing and server logs"
+text = "The website is intended to be hosted on a server managed by the website provider and served using Caddy. Server requests transmit connection data such as an IP address and technical browser information. The absence of cookies and tracking does not mean that technical logs are absent."
+
+[[policy.sections]]
+title = "Email and telephone"
+text = "Email and telephone links open the visitor’s email or phone application. The website has no data collection forms. Information voluntarily sent to IBIS will be used to handle the enquiry."
+
+[[policy.sections]]
+title = "Your rights"
+text = "Where applicable under Regulation (EU) 2016/679, you may request access, rectification, erasure, restriction, portability and object to processing, and withdraw any consent. You can use the contact above and lodge a complaint with the Italian Data Protection Authority."
+
+
+

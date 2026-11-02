@@ -1,0 +1,105 @@
+language_name = "Italiano"
+language_short = "IT"
+page_title = "IBIS Srl — Export management per la frutta italiana"
+description = "Dal 1994 IBIS Srl gestisce l'esportazione di frutta fresca 100% italiana. Da Ravenna, un ponte tra produttori italiani e mercati esteri."
+skip_link = "Vai al contenuto"
+home_label = "IBIS — inizio pagina"
+main_navigation = "Navigazione principale"
+language_navigation = "Selezione della lingua"
+chooser_title = "Scegli la lingua"
+chooser_intro = "IBIS Srl — Export management per la frutta italiana."
+company_name = "IBIS Srl"
+hero_eyebrow = "IBIS SRL"
+hero_title = "Export management per la frutta italiana."
+hero_intro = "IBIS Srl opera dal 1994 nel settore dell'esportazione di frutta fresca 100% italiana."
+hero_link = "I nostri prodotti"
+hero_contact = "Contattaci"
+location = "Ravenna, Italia"
+since = "Dal 1994"
+about_title = "L’azienda"
+about_paragraphs = [
+    "Con sede operativa a Ravenna, nel cuore dell'Emilia-Romagna e sulla costa adriatica, la società gestisce clienti esteri per conto di selezionati fornitori, cooperative e produttori privati di diverse regioni italiane, con cui collabora in modo continuativo fin dalla sua fondazione.",
+    "L'attenzione costante ai mercati, l'orientamento all'innovazione e la cura del dettaglio ci hanno permesso di rappresentare aziende leader nel settore e di operare in oltre 20 Paesi nel mondo."
+]
+products_title = "I prodotti"
+products_intro = "I nostri prodotti di riferimento sono mele e kiwi, affiancati da tutta la gamma di drupacee."
+services_title = "Cosa facciamo"
+services_intro = "Siamo il ponte tra i migliori produttori italiani e i mercati esteri."
+contact_title = "Contatti"
+contact_location_label = "Sede operativa"
+
+address = "Viale Francesco Baracca 89, 48121 Ravenna (RA), Italia"
+company_details = [
+    "P. IVA e C.F. 01286410392",
+    "REA: RA – 133634",
+    "Capitale sociale: € 30.000,00"
+]
+policy_link = "Cookie e privacy policy"
+[[products]]
+name = "Mele e kiwi"
+detail = "I nostri prodotti di riferimento."
+
+[[products]]
+name = "Drupacee"
+detail = "Pesche, nettarine, albicocche, susine e ciliegie."
+
+[[products]]
+name = "Uva senza semi"
+detail = "Recentemente stiamo sviluppando progetti molto interessanti con le nuove varietà di uva senza semi."
+
+[[services]]
+title = "Analisi e strategia"
+text = "Individuiamo i mercati esteri più promettenti per i vostri prodotti. Analizziamo concorrenza, prezzi e tendenze con ricerche di mercato mirate e definiamo una strategia commerciale efficace per l'ingresso nel mercato target."
+
+[[services]]
+title = "Sviluppo commerciale"
+text = "Cerchiamo e contattiamo direttamente buyer, distributori e grossisti qualificati. Gestiamo la trattativa commerciale fino alla chiusura dell'accordo e alla stipula di partnership solide e durature."
+
+[[services]]
+title = "Presenza sul campo"
+text = "Partecipiamo alle principali fiere internazionali per costruire nuovi network e cogliere opportunità di business. Organizziamo viaggi e incontri B2B, sia all'estero con i clienti che in Italia presso i nostri fornitori."
+
+[[services]]
+title = "Gestione operativa completa"
+text = "Offriamo supporto a 360°: burocratico, operativo e logistico. Coordiniamo vendite e marketing con produzione e logistica, semplificando tutto il processo di esportazione."
+
+
+[[contacts]]
+name = "Isabella Tebaldi"
+email = "Isabel@ibissrl.it"
+phone = "+39335235488"
+phone_label = "+39 335 235488"
+
+[[contacts]]
+name = "Al Hassan Zaher"
+email = "Ahzaher@ibissrl.it"
+phone = "+201061318885"
+phone_label = "+20 106 1318885"
+
+[policy]
+description = "Informazioni sulla privacy, sui contatti e sul funzionamento senza cookie o tracciamento del sito IBIS Srl."
+title = "Cookie e privacy policy"
+intro = "Informazioni sul sito IBIS Srl e sui contatti disponibili."
+
+[[policy.sections]]
+title = "Titolare e contatti"
+text = "Il sito presenta IBIS Srl. L’indirizzo pubblicato sul sito aziendale è Viale Francesco Baracca 89, 48121 Ravenna (RA), Italia. Per richieste relative ai dati personali è disponibile il contatto Isabel@ibissrl.it."
+
+[[policy.sections]]
+title = "Cookie e strumenti di tracciamento"
+text = "Questa versione del sito è composta da pagine statiche: non imposta cookie, non usa localStorage, strumenti di analisi, pixel pubblicitari o contenuti incorporati di terze parti. La pagina iniziale legge le preferenze linguistiche esposte dal browser per aprire la prima versione disponibile nell’ordine indicato; in assenza di corrispondenze viene aperta la versione inglese. Questa scelta avviene nel browser e non viene memorizzata né inviata a servizi esterni. I collegamenti consentono sempre di cambiare lingua manualmente. Non sono utilizzati cookie, sessionStorage o altre forme di memoria persistente per questa funzione."
+
+[[policy.sections]]
+title = "Navigazione e log del server"
+text = "Il sito è destinato a essere ospitato su un server gestito dal fornitore del sito e servito tramite Caddy. Le richieste al server comportano la trasmissione dei dati necessari alla connessione, come indirizzo IP e informazioni tecniche del browser. L’assenza di cookie e tracciamento non implica l’assenza di log tecnici."
+
+[[policy.sections]]
+title = "Email e telefono"
+text = "I link email e telefono aprono il programma di posta o l’applicazione telefonica del visitatore. Il sito non contiene moduli di raccolta dati. I dati comunicati volontariamente a IBIS saranno utilizzati per gestire la richiesta."
+
+[[policy.sections]]
+title = "Diritti"
+text = "Nei casi previsti dal Regolamento (UE) 2016/679 è possibile chiedere accesso, rettifica, cancellazione, limitazione, portabilità e opposizione al trattamento, e revocare l’eventuale consenso. È possibile rivolgersi al contatto sopra indicato e proporre reclamo al Garante per la protezione dei dati personali."
+
+
+

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+  <article class="policy-page wrap" aria-labelledby="policy-title">
+    <a class="eyebrow policy-home" href="index.html" aria-label="{{ texts.home_label }}"><span aria-hidden="true">←</span> {{ texts.company_name }}</a>
+    <h1 id="policy-title">{{ texts.policy.title }}</h1>
+    <p class="policy-intro">{{ texts.policy.intro }}</p>
+    {% for section in texts.policy.sections %}
+    <section><h2>{{ section.title }}</h2><p>{{ section.text }}</p></section>
+    {% endfor %}
+  </article>
+{% endblock %}
