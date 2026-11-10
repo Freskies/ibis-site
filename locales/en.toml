@@ -6,6 +6,9 @@ description = "Since 1994, IBIS Srl has managed exports of 100% Italian fresh fr
 skip_link = "Skip to content"
 home_label = "IBIS — top of page"
 main_navigation = "Main navigation"
+nav_about = "About us"
+nav_products = "Products"
+nav_services = "Services"
 language_navigation = "Language selection"
 chooser_title = "Choose your language"
 chooser_intro = "IBIS Srl — Export management for Italian fruit."
@@ -28,6 +31,8 @@ services_title = "What we do"
 services_intro = "We are the bridge between the best Italian producers and international markets."
 contact_title = "Contact"
 contact_location_label = "Operating office"
+office_phone = "+390544502323"
+office_phone_label = "+39 0544 502323"
 
 address = "Viale Francesco Baracca 89, 48121 Ravenna (RA), Italy"
 company_details = [
@@ -45,8 +50,8 @@ name = "Stone fruit"
 detail = "Peaches, nectarines, apricots, plums and cherries."
 
 [[products]]
-name = "Seedless grapes"
-detail = "We have recently been developing very interesting projects with new seedless grape varieties."
+name = "Grapes"
+detail = "Seedless grapes and traditional varieties"
 
 [[services]]
 title = "Analysis and strategy"
@@ -67,15 +72,10 @@ text = "We provide comprehensive administrative, operational and logistical supp
 
 [[contacts]]
 name = "Isabella Tebaldi"
+title = "Export Managing Director"
 email = "Isabel@ibissrl.it"
 phone = "+39335235488"
 phone_label = "+39 335 235488"
-
-[[contacts]]
-name = "Al Hassan Zaher"
-email = "Ahzaher@ibissrl.it"
-phone = "+201061318885"
-phone_label = "+20 106 1318885"
 
 [policy]
 description = "Privacy information, contact details and cookie-free, tracking-free operation of the IBIS Srl website."

@@ -1,0 +1,102 @@
+# Traduction de travail des textes italiens du client : à valider.
+language_name = "Français"
+language_short = "FR"
+page_title = "IBIS Srl — Gestion des exportations de fruits italiens"
+description = "Depuis 1994, IBIS Srl gère les exportations de fruits frais 100 % italiens. Basée à Ravenne, elle relie les producteurs italiens aux marchés internationaux."
+skip_link = "Aller au contenu"
+home_label = "IBIS — haut de page"
+main_navigation = "Navigation principale"
+nav_about = "À propos"
+nav_products = "Produits"
+nav_services = "Services"
+language_navigation = "Choix de la langue"
+chooser_title = "Choisissez votre langue"
+chooser_intro = "IBIS Srl — Gestion des exportations de fruits italiens."
+company_name = "IBIS Srl"
+hero_eyebrow = "IBIS SRL"
+hero_title = "Gestion des exportations de fruits italiens."
+hero_intro = "Depuis 1994, IBIS Srl opère dans l’exportation de fruits frais 100 % italiens."
+hero_link = "Nos produits"
+hero_contact = "Contactez-nous"
+location = "Ravenne, Italie"
+since = "Depuis 1994"
+about_title = "Qui sommes-nous"
+about_paragraphs = [
+  "Basée à Ravenne, au cœur de l’Émilie-Romagne sur la côte adriatique, l’entreprise gère la clientèle internationale pour le compte de fournisseurs sélectionnés, de coopératives et de producteurs privés de différentes régions italiennes, avec lesquels elle collabore sans interruption depuis sa création.",
+  "Notre attention constante aux marchés, notre intérêt pour l’innovation et notre souci du détail nous ont permis de représenter des entreprises de premier plan dans le secteur et d’opérer dans plus de 20 pays à travers le monde."
+]
+products_title = "Nos produits"
+products_intro = "Nos produits phares sont les pommes et les kiwis, complétés par toute la gamme des fruits à noyau."
+services_title = "Nos activités"
+services_intro = "Nous faisons le lien entre les meilleurs producteurs italiens et les marchés internationaux."
+contact_title = "Contact"
+contact_location_label = "Bureau opérationnel"
+office_phone = "+390544502323"
+office_phone_label = "+39 0544 502323"
+address = "Viale Francesco Baracca 89, 48121 Ravenna (RA), Italie"
+company_details = [
+  "N° de TVA et identifiant fiscal : IT01286410392 / 01286410392",
+  "REA : RA – 133634",
+  "Capital social : 30 000,00 €"
+]
+policy_link = "Politique relative aux cookies et à la confidentialité"
+
+[[products]]
+name = "Pommes et kiwis"
+detail = "Nos produits phares."
+
+[[products]]
+name = "Fruits à noyau"
+detail = "Pêches, nectarines, abricots, prunes et cerises."
+
+[[products]]
+name = "Raisins"
+detail = "Raisins sans pépins et variétés traditionnelles"
+
+[[services]]
+title = "Analyse et stratégie"
+text = "Nous identifions les marchés étrangers les plus prometteurs pour vos produits. Grâce à des études de marché ciblées, nous analysons la concurrence, les prix et les tendances, et définissons une stratégie commerciale efficace pour pénétrer le marché visé."
+
+[[services]]
+title = "Développement commercial"
+text = "Nous recherchons et contactons directement des acheteurs, des distributeurs et des grossistes qualifiés. Nous menons les négociations commerciales jusqu’à la conclusion de l’accord et à la mise en place de partenariats solides et durables."
+
+[[services]]
+title = "Présence sur le terrain"
+text = "Nous participons aux principaux salons internationaux pour développer de nouveaux réseaux et saisir des opportunités commerciales. Nous organisons des déplacements et des rencontres B2B, à l’étranger avec les clients comme en Italie chez nos fournisseurs."
+
+[[services]]
+title = "Gestion opérationnelle complète"
+text = "Nous proposons un accompagnement complet sur les plans administratif, opérationnel et logistique. Nous coordonnons les ventes et le marketing avec la production et la logistique, en simplifiant l’ensemble du processus d’exportation."
+
+[[contacts]]
+name = "Isabella Tebaldi"
+title = "Directrice générale export"
+email = "Isabel@ibissrl.it"
+phone = "+39335235488"
+phone_label = "+39 335 235488"
+
+[policy]
+description = "Informations sur la confidentialité, les contacts et le fonctionnement sans cookies ni suivi du site IBIS Srl."
+title = "Politique relative aux cookies et à la confidentialité"
+intro = "Informations sur le site IBIS Srl et les contacts disponibles."
+
+[[policy.sections]]
+title = "Responsable du traitement et contacts"
+text = "Ce site présente IBIS Srl. L’adresse publiée sur le site de l’entreprise est Viale Francesco Baracca 89, 48121 Ravenna (RA), Italie. Pour toute demande concernant les données personnelles, vous pouvez écrire à Isabel@ibissrl.it."
+
+[[policy.sections]]
+title = "Cookies et outils de suivi"
+text = "Cette version se compose de pages statiques : elle ne dépose aucun cookie et n’utilise ni localStorage, ni outils d’analyse, ni pixels publicitaires, ni contenus intégrés de tiers. La page d’entrée lit les préférences linguistiques du navigateur et ouvre la première version disponible dans l’ordre indiqué ; à défaut de correspondance, elle ouvre la version anglaise. Ce choix s’effectue dans le navigateur et n’est ni enregistré ni transmis à des services externes. Des liens permettent toujours de changer de langue manuellement. Cette fonction n’utilise ni cookies, ni sessionStorage, ni aucune autre forme de stockage persistant."
+
+[[policy.sections]]
+title = "Navigation et journaux du serveur"
+text = "Le site est destiné à être hébergé sur un serveur géré par le prestataire du site et servi avec Caddy. Les requêtes au serveur transmettent des données de connexion, telles que l’adresse IP et des informations techniques sur le navigateur. L’absence de cookies et de suivi ne signifie pas l’absence de journaux techniques."
+
+[[policy.sections]]
+title = "Courriel et téléphone"
+text = "Les liens de courriel et de téléphone ouvrent l’application de messagerie ou de téléphonie du visiteur. Le site ne comporte aucun formulaire de collecte de données. Les informations transmises volontairement à IBIS seront utilisées pour traiter la demande."
+
+[[policy.sections]]
+title = "Vos droits"
+text = "Dans les cas prévus par le règlement (UE) 2016/679, vous pouvez demander l’accès, la rectification, l’effacement, la limitation et la portabilité des données, vous opposer au traitement et retirer tout consentement donné. Vous pouvez utiliser le contact indiqué ci-dessus et introduire une réclamation auprès de l’autorité italienne de protection des données."

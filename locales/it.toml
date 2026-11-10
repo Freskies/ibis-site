@@ -5,6 +5,9 @@ description = "Dal 1994 IBIS Srl gestisce l'esportazione di frutta fresca 100% i
 skip_link = "Vai al contenuto"
 home_label = "IBIS — inizio pagina"
 main_navigation = "Navigazione principale"
+nav_about = "Azienda"
+nav_products = "Prodotti"
+nav_services = "Attività"
 language_navigation = "Selezione della lingua"
 chooser_title = "Scegli la lingua"
 chooser_intro = "IBIS Srl — Export management per la frutta italiana."
@@ -27,6 +30,8 @@ services_title = "Cosa facciamo"
 services_intro = "Siamo il ponte tra i migliori produttori italiani e i mercati esteri."
 contact_title = "Contatti"
 contact_location_label = "Sede operativa"
+office_phone = "+390544502323"
+office_phone_label = "+39 0544 502323"
 
 address = "Viale Francesco Baracca 89, 48121 Ravenna (RA), Italia"
 company_details = [
@@ -44,8 +49,8 @@ name = "Drupacee"
 detail = "Pesche, nettarine, albicocche, susine e ciliegie."
 
 [[products]]
-name = "Uva senza semi"
-detail = "Recentemente stiamo sviluppando progetti molto interessanti con le nuove varietà di uva senza semi."
+name = "Uva"
+detail = "Uve senza semi e varietà tradizionali"
 
 [[services]]
 title = "Analisi e strategia"
@@ -66,15 +71,10 @@ text = "Offriamo supporto a 360°: burocratico, operativo e logistico. Coordinia
 
 [[contacts]]
 name = "Isabella Tebaldi"
+title = "Export Managing Director"
 email = "Isabel@ibissrl.it"
 phone = "+39335235488"
 phone_label = "+39 335 235488"
-
-[[contacts]]
-name = "Al Hassan Zaher"
-email = "Ahzaher@ibissrl.it"
-phone = "+201061318885"
-phone_label = "+20 106 1318885"
 
 [policy]
 description = "Informazioni sulla privacy, sui contatti e sul funzionamento senza cookie o tracciamento del sito IBIS Srl."

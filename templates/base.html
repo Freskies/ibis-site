@@ -18,17 +18,21 @@
 		<a class="brand" href="index.html#top" aria-label="{{ texts.home_label }}"><img
 			src="../assets/logo-horizontal.svg" alt="{{ texts.company_name }}" width="620" height="300"></a>
 		<nav class="main-nav" aria-label="{{ texts.main_navigation }}">
-			<a href="index.html#azienda">{{ texts.about_title }}</a>
-			<a href="index.html#prodotti">{{ texts.products_title }}</a>
-			<a href="index.html#attivita">{{ texts.services_title }}</a>
+			<a href="index.html#azienda">{{ texts.nav_about }}</a>
+			<a href="index.html#prodotti">{{ texts.nav_products }}</a>
+			<a href="index.html#attivita">{{ texts.nav_services }}</a>
 			<a href="index.html#contatti">{{ texts.contact_title }}</a>
 		</nav>
 		<nav class="language-nav" aria-label="{{ texts.language_navigation }}">
+			<details class="language-picker">
+				<summary aria-label="{{ texts.language_navigation }}: {{ texts.language_short }}"><span class="language-current">{{ texts.language_short }}</span><svg class="language-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" focusable="false"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></summary>
+				<div class="language-options">
 			{% for (code, translation) in languages %}
 			<a href="../{{ code }}/{{ page_filename }}" lang="{{ code }}" hreflang="{{ code }}"
-			   aria-label="{{ translation.language_name }}" {% if code== lang %} aria-current="page" {% endif %}>{{
-				translation.language_short }}</a>
+			   {% if code== lang %} aria-current="page" {% endif %}>{{ translation.language_name }}</a>
 			{% endfor %}
+				</div>
+			</details>
 		</nav>
 	</div>
 </header>

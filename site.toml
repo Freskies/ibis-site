@@ -1,2 +1,5 @@
-# Origine canonica: aggiornare qui se cambia il dominio, poi rigenerare il sito.
+# Il sito è raggiungibile da ibissrl.biz e lovefruit.it (anche con www).
+# Un'unica origine canonica per metadata, hreflang, sitemap e robots.
+# I domini serviti da Caddy sono configurati nel Caddyfile.
+# Aggiornare base_url se cambia il dominio canonico, poi rigenerare il sito.
 base_url = "https://www.ibissrl.biz"

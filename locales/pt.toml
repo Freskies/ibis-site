@@ -1,0 +1,102 @@
+# Tradução de trabalho dos textos italianos do cliente: sujeita a validação.
+language_name = "Português"
+language_short = "PT"
+page_title = "IBIS Srl — Gestão de exportações de fruta italiana"
+description = "Desde 1994, a IBIS Srl gere a exportação de fruta fresca 100% italiana. Sediada em Ravena, liga os produtores italianos aos mercados internacionais."
+skip_link = "Saltar para o conteúdo"
+home_label = "IBIS — início da página"
+main_navigation = "Navegação principal"
+nav_about = "Sobre nós"
+nav_products = "Produtos"
+nav_services = "Serviços"
+language_navigation = "Seleção de idioma"
+chooser_title = "Escolha o seu idioma"
+chooser_intro = "IBIS Srl — Gestão de exportações de fruta italiana."
+company_name = "IBIS Srl"
+hero_eyebrow = "IBIS SRL"
+hero_title = "Gestão de exportações de fruta italiana."
+hero_intro = "Desde 1994, a IBIS Srl atua na exportação de fruta fresca 100% italiana."
+hero_link = "Os nossos produtos"
+hero_contact = "Contacte-nos"
+location = "Ravena, Itália"
+since = "Desde 1994"
+about_title = "Quem somos"
+about_paragraphs = [
+  "Sediada em Ravena, no coração da Emília-Romanha, na costa adriática, a empresa gere clientes internacionais em nome de fornecedores selecionados, cooperativas e produtores privados de várias regiões italianas, com os quais colabora de forma contínua desde a sua fundação.",
+  "A nossa atenção constante aos mercados, o foco na inovação e o cuidado com os detalhes permitiram-nos representar empresas de referência no setor e operar em mais de 20 países em todo o mundo."
+]
+products_title = "Os nossos produtos"
+products_intro = "Os nossos principais produtos são maçãs e kiwis, complementados por toda a gama de fruta de caroço."
+services_title = "O que fazemos"
+services_intro = "Somos a ponte entre os melhores produtores italianos e os mercados internacionais."
+contact_title = "Contactos"
+contact_location_label = "Escritório operacional"
+office_phone = "+390544502323"
+office_phone_label = "+39 0544 502323"
+address = "Viale Francesco Baracca 89, 48121 Ravenna (RA), Itália"
+company_details = [
+  "N.º de IVA e identificação fiscal: IT01286410392 / 01286410392",
+  "REA: RA – 133634",
+  "Capital social: 30 000,00 €"
+]
+policy_link = "Política de cookies e privacidade"
+
+[[products]]
+name = "Maçãs e kiwis"
+detail = "Os nossos principais produtos."
+
+[[products]]
+name = "Fruta de caroço"
+detail = "Pêssegos, nectarinas, damascos, ameixas e cerejas."
+
+[[products]]
+name = "Uvas"
+detail = "Uvas sem grainha e variedades tradicionais"
+
+[[services]]
+title = "Análise e estratégia"
+text = "Identificamos os mercados externos mais promissores para os seus produtos. Através de estudos de mercado direcionados, analisamos a concorrência, os preços e as tendências e definimos uma estratégia comercial eficaz para entrar no mercado-alvo."
+
+[[services]]
+title = "Desenvolvimento comercial"
+text = "Procuramos e contactamos diretamente compradores, distribuidores e grossistas qualificados. Gerimos as negociações comerciais até à conclusão do acordo e ao estabelecimento de parcerias sólidas e duradouras."
+
+[[services]]
+title = "Presença no terreno"
+text = "Participamos nas principais feiras internacionais para criar novas redes de contactos e aproveitar oportunidades de negócio. Organizamos viagens e encontros B2B, tanto no estrangeiro com os clientes como em Itália nas instalações dos nossos fornecedores."
+
+[[services]]
+title = "Gestão operacional completa"
+text = "Prestamos apoio completo nas áreas administrativa, operacional e logística. Coordenamos as vendas e o marketing com a produção e a logística, simplificando todo o processo de exportação."
+
+[[contacts]]
+name = "Isabella Tebaldi"
+title = "Diretora-geral de exportação"
+email = "Isabel@ibissrl.it"
+phone = "+39335235488"
+phone_label = "+39 335 235488"
+
+[policy]
+description = "Informações sobre privacidade, contactos e funcionamento sem cookies nem rastreamento do site da IBIS Srl."
+title = "Política de cookies e privacidade"
+intro = "Informações sobre o site da IBIS Srl e os contactos disponíveis."
+
+[[policy.sections]]
+title = "Responsável pelo tratamento e contactos"
+text = "Este site apresenta a IBIS Srl. A morada publicada no site da empresa é Viale Francesco Baracca 89, 48121 Ravenna (RA), Itália. Os pedidos relativos a dados pessoais podem ser enviados para Isabel@ibissrl.it."
+
+[[policy.sections]]
+title = "Cookies e ferramentas de rastreamento"
+text = "Esta versão é composta por páginas estáticas: não define cookies nem utiliza localStorage, ferramentas de análise, píxeis publicitários ou conteúdos incorporados de terceiros. A página de entrada lê as preferências de idioma do navegador e abre a primeira versão disponível na ordem indicada; se não houver correspondência, abre a versão inglesa. Esta escolha ocorre no navegador e não é guardada nem enviada a serviços externos. Os links permitem sempre mudar de idioma manualmente. Esta função não utiliza cookies, sessionStorage ou qualquer outra forma de armazenamento persistente."
+
+[[policy.sections]]
+title = "Navegação e registos do servidor"
+text = "O site destina-se a ser alojado num servidor gerido pelo prestador do site e servido através do Caddy. Os pedidos ao servidor transmitem dados de ligação, como o endereço IP e informações técnicas do navegador. A ausência de cookies e rastreamento não significa que não existam registos técnicos."
+
+[[policy.sections]]
+title = "Correio eletrónico e telefone"
+text = "Os links de correio eletrónico e telefone abrem a aplicação de email ou de telefone do visitante. O site não tem formulários de recolha de dados. As informações enviadas voluntariamente à IBIS serão utilizadas para tratar o pedido."
+
+[[policy.sections]]
+title = "Os seus direitos"
+text = "Nos casos previstos no Regulamento (UE) 2016/679, pode solicitar o acesso, a retificação, o apagamento, a limitação e a portabilidade dos dados, opor-se ao tratamento e retirar qualquer consentimento dado. Pode utilizar o contacto acima e apresentar uma reclamação à autoridade italiana de proteção de dados."

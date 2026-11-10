@@ -23,6 +23,7 @@ function navigate(href, options = {}) {
   for (const key of ["history", "localStorage", "sessionStorage"]) Object.defineProperty(window, key, { get: forbidden });
   const link = { href, target: options.target || "", hasAttribute: () => !!options.download };
   const document = {
+    querySelector: () => null,
     addEventListener: (name, callback) => { assert.equal(name, "click"); handler = callback; },
     getElementById: (id) => id === "prodotti" && !options.missing ? target : null,
   };

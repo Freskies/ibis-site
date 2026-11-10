@@ -47,6 +47,8 @@ test("falls back to navigator.language and then English", () => {
 });
 test("uses generated links when more languages become available", () => {
 	assert.equal(select(["fr-CA"], "", "", ["it", "en", "fr"]), "fr/index.html");
+	assert.equal(select(["pt-BR"], "", "", ["it", "en", "fr", "pt", "es"]), "pt/index.html");
+	assert.equal(select(["es-MX"], "", "", ["it", "en", "fr", "pt", "es"]), "es/index.html");
 });
 test("manual choice bypasses redirection and missing links do not cause a loop", () => {
 	assert.equal(select(["it"], "", "#choose"), undefined);

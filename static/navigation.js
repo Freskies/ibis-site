@@ -1,3 +1,21 @@
+// La tendina conserva apertura e semantica native anche senza JavaScript.
+const languagePicker = document.querySelector(".language-picker");
+if (languagePicker) {
+	document.addEventListener("keydown", (event) => {
+		if (event.key === "Escape" && languagePicker.open) {
+			languagePicker.open = false;
+			languagePicker.querySelector("summary").focus();
+			event.preventDefault();
+		}
+	});
+	document.addEventListener("click", (event) => {
+		if (!languagePicker.contains(event.target)) languagePicker.open = false;
+	});
+	languagePicker.addEventListener("focusout", (event) => {
+		if (event.relatedTarget && !languagePicker.contains(event.relatedTarget)) languagePicker.open = false;
+	});
+}
+
 // Le ancore nella stessa pagina spostano focus e vista, senza cambiare URL o cronologia.
 document.addEventListener("click", (event) => {
 	if (event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;

@@ -45,12 +45,12 @@ const meta = (nodes, name) => nodes.find((n) => n.tag === "meta" && (n.attrs.nam
 const link = (nodes, rel) => nodes.filter((n) => n.tag === "link" && n.attrs.rel === rel);
 
 test("HTML: struttura, landmark, titoli, nomi accessibili e riferimenti ARIA", () => {
-  assert.equal(pages.size, 5);
+  assert.equal(pages.size, 11);
   for (const [file, nodes] of pages) {
     assert.equal(byTag(nodes, "main").length, 1, file);
     assert.equal(byTag(nodes, "h1").length, 1, file);
     assert.equal(byTag(nodes, "html").length, 1, file);
-    assert(["it", "en"].includes(byTag(nodes, "html")[0].attrs.lang));
+    assert(["it", "en", "fr", "pt", "es"].includes(byTag(nodes, "html")[0].attrs.lang));
     const ids = new Map();
     for (const n of nodes.filter((n) => n.attrs.id)) {
       assert(!ids.has(n.attrs.id), `ID duplicato in ${file}: ${n.attrs.id}`);
@@ -91,6 +91,30 @@ test("HTML: struttura, landmark, titoli, nomi accessibili e riferimenti ARIA", (
   }
 });
 
+test("Selettore lingue: disclosure nativa, nome accessibile e icona decorativa", () => {
+  for (const [file, nodes] of pages) {
+    if (file === join(root, "index.html")) continue;
+    const picker = byTag(nodes, "details");
+    assert.equal(picker.length, 1, file);
+    assert(!("open" in picker[0].attrs));
+    const summary = byTag(nodes, "summary");
+    assert.equal(summary.length, 1);
+    assert.equal(summary[0].parent, picker[0]);
+    assert(summary[0].attrs["aria-label"].includes(summary[0].text.trim()));
+    // details/summary espone già lo stato espanso: evitare ARIA statico o ruoli menu.
+    assert(!("aria-expanded" in summary[0].attrs));
+    assert(!("role" in summary[0].attrs));
+    const icon = byTag(nodes, "svg").find((n) => n.parent === summary[0]);
+    assert.equal(icon?.attrs["aria-hidden"], "true");
+    assert.equal(icon?.attrs.focusable, "false");
+    const options = nodes.find((n) => n.attrs.class === "language-options");
+    const links = byTag(nodes, "a").filter((n) => n.parent === options);
+    assert.equal(links.length, 5);
+    assert(links.every((n) => n.text.trim() && n.attrs.lang === n.attrs.hreflang));
+    assert.equal(links.filter((n) => n.attrs["aria-current"] === "page").length, 1);
+  }
+});
+
 test("SEO: metadata distinti, canonical, hreflang reciproci, sitemap e robots", () => {
   const titles = new Set(), descriptions = new Set(), urls = new Set();
   for (const [file, nodes] of pages) {
@@ -109,7 +133,7 @@ test("SEO: metadata distinti, canonical, hreflang reciproci, sitemap e robots", 
     assert.equal(meta(nodes, "og:description"), description);
     assert.equal(meta(nodes, "twitter:card"), "summary");
     const alternates = link(nodes, "alternate");
-    assert.deepEqual(alternates.map((n) => n.attrs.hreflang).sort(), ["en", "it", "x-default"]);
+    assert.deepEqual(alternates.map((n) => n.attrs.hreflang).sort(), ["en", "es", "fr", "it", "pt", "x-default"]);
     const policy = file.endsWith("privacy.html");
     for (const n of alternates) {
       const language = n.attrs.hreflang;

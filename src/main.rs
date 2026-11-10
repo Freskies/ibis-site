@@ -3,7 +3,7 @@ use serde::Deserialize;
 use std::{error::Error, fs, path::Path, process};
 
 type Result<T> = std::result::Result<T, Box<dyn Error>>;
-const LANGUAGES: [&str; 2] = ["it", "en"];
+const LANGUAGES: [&str; 5] = ["it", "en", "fr", "pt", "es"];
 
 #[derive(Deserialize)]
 #[serde(deny_unknown_fields)]
@@ -50,6 +50,9 @@ struct Texts {
 	skip_link: String,
 	home_label: String,
 	main_navigation: String,
+	nav_about: String,
+	nav_products: String,
+	nav_services: String,
 	language_navigation: String,
 	chooser_title: String,
 	chooser_intro: String,
@@ -71,6 +74,8 @@ struct Texts {
 	services: Vec<Service>,
 	contact_title: String,
 	contact_location_label: String,
+	office_phone: String,
+	office_phone_label: String,
 	address: String,
 	contacts: Vec<Contact>,
 	company_details: Vec<String>,
@@ -82,6 +87,7 @@ struct Texts {
 #[serde(deny_unknown_fields)]
 struct Contact {
 	name: String,
+	title: String,
 	email: String,
 	phone: String,
 	phone_label: String,
@@ -284,7 +290,11 @@ fn generate() -> Result<()> {
 			site.base_url
 		),
 	)?;
-	println!("Sito generato in {} (it, en)", dist.display());
+	println!(
+		"Sito generato in {} ({})",
+		dist.display(),
+		LANGUAGES.join(", ")
+	);
 	Ok(())
 }
 
