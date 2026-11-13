@@ -2,7 +2,7 @@
 language_name = "Français"
 language_short = "FR"
 page_title = "IBIS Srl — Gestion des exportations de fruits italiens"
-description = "Depuis 1994, IBIS Srl gère les exportations de fruits frais 100 % italiens. Basée à Ravenne, elle relie les producteurs italiens aux marchés internationaux."
+description = "IBIS Srl, constituée en 1994 et active depuis 1995, gère les exportations de fruits frais 100 % italiens. À Ravenne, elle relie producteurs et marchés internationaux."
 skip_link = "Aller au contenu"
 home_label = "IBIS — haut de page"
 main_navigation = "Navigation principale"
@@ -15,14 +15,12 @@ chooser_intro = "IBIS Srl — Gestion des exportations de fruits italiens."
 company_name = "IBIS Srl"
 hero_eyebrow = "IBIS SRL"
 hero_title = "Gestion des exportations de fruits italiens."
-hero_intro = "Depuis 1994, IBIS Srl opère dans l’exportation de fruits frais 100 % italiens."
+hero_intro = "Constituée en 1994 et active depuis 1995, IBIS Srl opère dans l’exportation de fruits frais 100 % italiens."
 hero_link = "Nos produits"
 hero_contact = "Contactez-nous"
-location = "Ravenne, Italie"
-since = "Depuis 1994"
 about_title = "Qui sommes-nous"
 about_paragraphs = [
-  "Basée à Ravenne, au cœur de l’Émilie-Romagne sur la côte adriatique, l’entreprise gère la clientèle internationale pour le compte de fournisseurs sélectionnés, de coopératives et de producteurs privés de différentes régions italiennes, avec lesquels elle collabore sans interruption depuis sa création.",
+  "Basée à Ravenne, au cœur de l’Émilie-Romagne sur la côte adriatique, l’entreprise gère la clientèle internationale pour le compte de fournisseurs sélectionnés, de coopératives et de producteurs privés de différentes régions italiennes, avec lesquels elle collabore sans interruption depuis le début de son activité.",
   "Notre attention constante aux marchés, notre intérêt pour l’innovation et notre souci du détail nous ont permis de représenter des entreprises de premier plan dans le secteur et d’opérer dans plus de 20 pays à travers le monde."
 ]
 products_title = "Nos produits"
@@ -30,16 +28,20 @@ products_intro = "Nos produits phares sont les pommes et les kiwis, complétés 
 services_title = "Nos activités"
 services_intro = "Nous faisons le lien entre les meilleurs producteurs italiens et les marchés internationaux."
 contact_title = "Contact"
-contact_location_label = "Bureau opérationnel"
+contact_location_label = "Siège social et opérationnel"
+contact_pec_label = "Courriel certifié (PEC)"
+company_pec = "ibissrl@mypec.eu"
 office_phone = "+390544502323"
 office_phone_label = "+39 0544 502323"
-address = "Viale Francesco Baracca 89, 48121 Ravenna (RA), Italie"
+address = "Viale Baracca 89, 48121 Ravenna (RA), Italie"
 company_details = [
   "N° de TVA et identifiant fiscal : IT01286410392 / 01286410392",
+  "Registre des entreprises de Ferrare et Ravenne : 01286410392",
   "REA : RA – 133634",
-  "Capital social : 30 000,00 €"
+  "Capital social souscrit : 30 000,00 €",
+  "Capital social versé : 18 750,00 €"
 ]
-policy_link = "Politique relative aux cookies et à la confidentialité"
+policy_link = "Politique de confidentialité et de cookies"
 
 [[products]]
 name = "Pommes et kiwis"
@@ -71,32 +73,36 @@ text = "Nous proposons un accompagnement complet sur les plans administratif, op
 
 [[contacts]]
 name = "Isabella Tebaldi"
-title = "Directrice générale export"
+title = "Administratrice unique · Directrice générale export"
 email = "Isabel@ibissrl.it"
 phone = "+39335235488"
 phone_label = "+39 335 235488"
 
 [policy]
-description = "Informations sur la confidentialité, les contacts et le fonctionnement sans cookies ni suivi du site IBIS Srl."
-title = "Politique relative aux cookies et à la confidentialité"
-intro = "Informations sur le site IBIS Srl et les contacts disponibles."
+title = "Politique de confidentialité et de cookies"
+description = "La présente notice décrit le traitement des données personnelles lors de la navigation sur le site d’IBIS Srl et des demandes envoyées aux coordonnées indiquées."
+intro = "La présente notice décrit le traitement des données personnelles lors de la navigation sur le site d’IBIS Srl et des demandes envoyées aux coordonnées indiquées."
 
 [[policy.sections]]
-title = "Responsable du traitement et contacts"
-text = "Ce site présente IBIS Srl. L’adresse publiée sur le site de l’entreprise est Viale Francesco Baracca 89, 48121 Ravenna (RA), Italie. Pour toute demande concernant les données personnelles, vous pouvez écrire à Isabel@ibissrl.it."
+title = "Responsable du traitement"
+text = "Le responsable du traitement est IBIS Srl, dont le siège social est situé Viale Baracca 89, 48121 Ravenna (RA), Italie, numéro de TVA et code fiscal 01286410392.\n\nPour toute information sur le traitement des données personnelles et pour exercer vos droits, vous pouvez écrire à Isabel@ibissrl.it ou à l’adresse de courrier électronique certifié (PEC) ibissrl@mypec.eu."
 
 [[policy.sections]]
-title = "Cookies et outils de suivi"
-text = "Cette version se compose de pages statiques : elle ne dépose aucun cookie et n’utilise ni localStorage, ni outils d’analyse, ni pixels publicitaires, ni contenus intégrés de tiers. La page d’entrée lit les préférences linguistiques du navigateur et ouvre la première version disponible dans l’ordre indiqué ; à défaut de correspondance, elle ouvre la version anglaise. Ce choix s’effectue dans le navigateur et n’est ni enregistré ni transmis à des services externes. Des liens permettent toujours de changer de langue manuellement. Cette fonction n’utilise ni cookies, ni sessionStorage, ni aucune autre forme de stockage persistant."
+title = "Navigation et sécurité"
+text = "La navigation implique la transmission des données techniques nécessaires à la connexion, notamment l’adresse IP, les ressources demandées et les informations communiquées par le navigateur.\n\nCes données sont traitées pour rendre les pages accessibles et assurer le fonctionnement et la sécurité du site. La base juridique est l’intérêt légitime d’IBIS à fournir et à protéger le service, conformément à l’article 6, paragraphe 1, point f), du règlement (UE) 2016/679.\n\nL’enregistrement systématique des visites de pages n’est pas activé. L’infrastructure peut générer des journaux techniques relatifs au fonctionnement, aux erreurs et à la sécurité, susceptibles de contenir des données personnelles. Le système de conservation de ces journaux est configuré sur 30 jours, avec suppression automatique par rotation des fichiers.\n\nLa transmission des données nécessaires à la connexion est indispensable pour consulter le site."
 
 [[policy.sections]]
-title = "Navigation et journaux du serveur"
-text = "Le site est destiné à être hébergé sur un serveur géré par le prestataire du site et servi avec Caddy. Les requêtes au serveur transmettent des données de connexion, telles que l’adresse IP et des informations techniques sur le navigateur. L’absence de cookies et de suivi ne signifie pas l’absence de journaux techniques."
+title = "Cookies et préférences linguistiques"
+text = "Le site n’utilise ni cookies, ni outils d’analyse du trafic, ni pixels publicitaires, ni autres outils de suivi et de profilage. Il n’utilise pas localStorage ou sessionStorage et n’intègre aucun contenu tiers.\n\nLa page d’accueil lit les préférences linguistiques du navigateur pour ouvrir la première version disponible dans l’ordre indiqué. En l’absence de correspondance, la version anglaise est ouverte.\n\nCette sélection s’effectue dans le navigateur, sans enregistrer la préférence ni utiliser de services externes. Il est toujours possible de changer de langue grâce aux liens du site."
 
 [[policy.sections]]
-title = "Courriel et téléphone"
-text = "Les liens de courriel et de téléphone ouvrent l’application de messagerie ou de téléphonie du visiteur. Le site ne comporte aucun formulaire de collecte de données. Les informations transmises volontairement à IBIS seront utilisées pour traiter la demande."
+title = "Demandes de contact"
+text = "Le site ne contient aucun formulaire de collecte de données. Les liens de courrier électronique et de téléphone ouvrent les applications du visiteur et permettent de contacter directement IBIS.\n\nLes données communiquées volontairement, telles que le nom, les coordonnées et le contenu de la demande, sont utilisées pour répondre et gérer les communications correspondantes.\n\nLe traitement repose sur :\n\n- l’exécution de mesures précontractuelles prises à la demande de la personne concernée, pour les demandes visant à établir une relation contractuelle, conformément à l’article 6, paragraphe 1, point b), du règlement ;\n- l’intérêt légitime d’IBIS à gérer la correspondance et à répondre aux autres demandes, conformément à l’article 6, paragraphe 1, point f), du règlement.\n\nLa fourniture des données est facultative. L’absence des informations nécessaires peut empêcher de répondre à la demande.\n\nLes simples demandes d’information ne donnant pas lieu à une relation contractuelle sont supprimées lors d’un examen annuel, au moins 12 mois après leur clôture et, en tout état de cause, dans les 24 mois suivant celle-ci. La clôture désigne la dernière communication qui règle la demande, sans autre action à effectuer.\n\nLa correspondance constituant la documentation d’une relation contractuelle suit les délais de conservation applicables à cette relation et les éventuelles obligations légales. En cas de litige, les données pertinentes peuvent être conservées pour sa gestion et la défense des droits, jusqu’au règlement du litige et à l’accomplissement des éventuelles obligations qui en découlent."
 
 [[policy.sections]]
-title = "Vos droits"
-text = "Dans les cas prévus par le règlement (UE) 2016/679, vous pouvez demander l’accès, la rectification, l’effacement, la limitation et la portabilité des données, vous opposer au traitement et retirer tout consentement donné. Vous pouvez utiliser le contact indiqué ci-dessus et introduire une réclamation auprès de l’autorité italienne de protection des données."
+title = "Destinataires des données et hébergement"
+text = "Les données peuvent être traitées par les personnes autorisées d’IBIS et les prestataires des services nécessaires au fonctionnement du site et à la gestion des communications, notamment l’hébergement, l’assistance technique et le courrier électronique.\n\nLes prestataires traitant des données pour le compte d’IBIS interviennent sur la base des accords prévus à l’article 28 du règlement. Les données peuvent également être communiquées aux autorités compétentes lorsque la loi le prévoit.\n\nLe site est hébergé chez Hetzner, sur un serveur situé en Finlande. Aucun transfert de données personnelles hors de l’Espace économique européen n’est prévu pour les traitements décrits dans la présente notice.\n\nLes données personnelles ne sont pas rendues publiques."
+
+[[policy.sections]]
+title = "Droits de la personne concernée"
+text = "Dans les cas prévus par le règlement (UE) 2016/679, vous pouvez demander l’accès à vos données, leur rectification, leur effacement, la limitation du traitement et la portabilité.\n\nVous pouvez également vous opposer aux traitements fondés sur l’intérêt légitime pour des raisons tenant à votre situation particulière.\n\nLes demandes peuvent être envoyées à Isabel@ibissrl.it ou à l’adresse de courrier électronique certifié (PEC) ibissrl@mypec.eu.\n\nVous pouvez introduire une réclamation auprès de l’autorité italienne de protection des données (Garante per la protezione dei dati personali), selon les modalités indiquées sur www.garanteprivacy.it.\n\nAucun profilage ni aucune décision fondée exclusivement sur un traitement automatisé produisant des effets juridiques ou affectant de manière significative et similaire la personne concernée ne sont effectués."

@@ -1,7 +1,7 @@
 language_name = "Italiano"
 language_short = "IT"
 page_title = "IBIS Srl — Export management per la frutta italiana"
-description = "Dal 1994 IBIS Srl gestisce l'esportazione di frutta fresca 100% italiana. Da Ravenna, un ponte tra produttori italiani e mercati esteri."
+description = "IBIS Srl, costituita nel 1994 e attiva dal 1995, gestisce l'esportazione di frutta fresca 100% italiana. Da Ravenna, un ponte verso i mercati esteri."
 skip_link = "Vai al contenuto"
 home_label = "IBIS — inizio pagina"
 main_navigation = "Navigazione principale"
@@ -14,14 +14,12 @@ chooser_intro = "IBIS Srl — Export management per la frutta italiana."
 company_name = "IBIS Srl"
 hero_eyebrow = "IBIS SRL"
 hero_title = "Export management per la frutta italiana."
-hero_intro = "IBIS Srl opera dal 1994 nel settore dell'esportazione di frutta fresca 100% italiana."
+hero_intro = "Costituita nel 1994 e attiva dal 1995, IBIS Srl opera nel settore dell'esportazione di frutta fresca 100% italiana."
 hero_link = "I nostri prodotti"
 hero_contact = "Contattaci"
-location = "Ravenna, Italia"
-since = "Dal 1994"
 about_title = "L’azienda"
 about_paragraphs = [
-    "Con sede operativa a Ravenna, nel cuore dell'Emilia-Romagna e sulla costa adriatica, la società gestisce clienti esteri per conto di selezionati fornitori, cooperative e produttori privati di diverse regioni italiane, con cui collabora in modo continuativo fin dalla sua fondazione.",
+    "Con sede operativa a Ravenna, nel cuore dell'Emilia-Romagna e sulla costa adriatica, la società gestisce clienti esteri per conto di selezionati fornitori, cooperative e produttori privati di diverse regioni italiane, con cui collabora in modo continuativo fin dall’inizio dell’attività.",
     "L'attenzione costante ai mercati, l'orientamento all'innovazione e la cura del dettaglio ci hanno permesso di rappresentare aziende leader nel settore e di operare in oltre 20 Paesi nel mondo."
 ]
 products_title = "I prodotti"
@@ -29,17 +27,21 @@ products_intro = "I nostri prodotti di riferimento sono mele e kiwi, affiancati 
 services_title = "Cosa facciamo"
 services_intro = "Siamo il ponte tra i migliori produttori italiani e i mercati esteri."
 contact_title = "Contatti"
-contact_location_label = "Sede operativa"
+contact_location_label = "Sede legale e operativa"
+contact_pec_label = "PEC"
+company_pec = "ibissrl@mypec.eu"
 office_phone = "+390544502323"
 office_phone_label = "+39 0544 502323"
 
-address = "Viale Francesco Baracca 89, 48121 Ravenna (RA), Italia"
+address = "Viale Baracca 89, 48121 Ravenna (RA), Italia"
 company_details = [
-    "P. IVA e C.F. 01286410392",
-    "REA: RA – 133634",
-    "Capitale sociale: € 30.000,00"
+  "P. IVA e C.F. 01286410392",
+  "Registro Imprese di Ferrara e Ravenna: 01286410392",
+  "REA: RA – 133634",
+  "Capitale sociale sottoscritto: € 30.000,00",
+  "Capitale sociale versato: € 18.750,00"
 ]
-policy_link = "Cookie e privacy policy"
+policy_link = "Privacy e cookie policy"
 [[products]]
 name = "Mele e kiwi"
 detail = "I nostri prodotti di riferimento."
@@ -71,35 +73,36 @@ text = "Offriamo supporto a 360°: burocratico, operativo e logistico. Coordinia
 
 [[contacts]]
 name = "Isabella Tebaldi"
-title = "Export Managing Director"
+title = "Amministratrice unica · Export Managing Director"
 email = "Isabel@ibissrl.it"
 phone = "+39335235488"
 phone_label = "+39 335 235488"
 
 [policy]
-description = "Informazioni sulla privacy, sui contatti e sul funzionamento senza cookie o tracciamento del sito IBIS Srl."
-title = "Cookie e privacy policy"
-intro = "Informazioni sul sito IBIS Srl e sui contatti disponibili."
+title = "Privacy e cookie policy"
+description = "Questa informativa descrive il trattamento dei dati personali durante la navigazione sul sito di IBIS Srl e in occasione delle richieste inviate ai contatti indicati."
+intro = "Questa informativa descrive il trattamento dei dati personali durante la navigazione sul sito di IBIS Srl e in occasione delle richieste inviate ai contatti indicati."
 
 [[policy.sections]]
-title = "Titolare e contatti"
-text = "Il sito presenta IBIS Srl. L’indirizzo pubblicato sul sito aziendale è Viale Francesco Baracca 89, 48121 Ravenna (RA), Italia. Per richieste relative ai dati personali è disponibile il contatto Isabel@ibissrl.it."
+title = "Titolare del trattamento"
+text = "Il titolare del trattamento è IBIS Srl, con sede legale in Viale Baracca 89, 48121 Ravenna (RA), Italia, P. IVA e C.F. 01286410392.\n\nPer informazioni sul trattamento dei dati personali e per esercitare i propri diritti è possibile scrivere a Isabel@ibissrl.it oppure alla PEC ibissrl@mypec.eu."
 
 [[policy.sections]]
-title = "Cookie e strumenti di tracciamento"
-text = "Questa versione del sito è composta da pagine statiche: non imposta cookie, non usa localStorage, strumenti di analisi, pixel pubblicitari o contenuti incorporati di terze parti. La pagina iniziale legge le preferenze linguistiche esposte dal browser per aprire la prima versione disponibile nell’ordine indicato; in assenza di corrispondenze viene aperta la versione inglese. Questa scelta avviene nel browser e non viene memorizzata né inviata a servizi esterni. I collegamenti consentono sempre di cambiare lingua manualmente. Non sono utilizzati cookie, sessionStorage o altre forme di memoria persistente per questa funzione."
+title = "Navigazione e sicurezza"
+text = "La navigazione comporta la trasmissione dei dati tecnici necessari alla connessione, tra cui l’indirizzo IP, le risorse richieste e le informazioni comunicate dal browser.\n\nQuesti dati sono trattati per rendere disponibili le pagine e garantire il funzionamento e la sicurezza del sito. La base giuridica è il legittimo interesse di IBIS a fornire e proteggere il servizio, ai sensi dell’art. 6, par. 1, lett. f), del Regolamento (UE) 2016/679.\n\nNon è attiva la registrazione sistematica delle visite alle pagine. L’infrastruttura può generare log tecnici relativi al funzionamento, agli errori e alla sicurezza, che possono contenere dati personali. Il sistema di conservazione di tali log è configurato su 30 giorni, con cancellazione automatica attraverso la rotazione dei file.\n\nLa trasmissione dei dati necessari alla connessione è indispensabile per consultare il sito."
 
 [[policy.sections]]
-title = "Navigazione e log del server"
-text = "Il sito è destinato a essere ospitato su un server gestito dal fornitore del sito e servito tramite Caddy. Le richieste al server comportano la trasmissione dei dati necessari alla connessione, come indirizzo IP e informazioni tecniche del browser. L’assenza di cookie e tracciamento non implica l’assenza di log tecnici."
+title = "Cookie e preferenze linguistiche"
+text = "Il sito non utilizza cookie, strumenti di analisi del traffico, pixel pubblicitari o altri strumenti di tracciamento e profilazione. Non utilizza localStorage o sessionStorage e non incorpora contenuti di terze parti.\n\nLa pagina iniziale legge le preferenze linguistiche del browser per aprire la prima versione disponibile nell’ordine indicato. In assenza di corrispondenze viene aperta la versione inglese.\n\nQuesta selezione avviene nel browser, senza memorizzare la preferenza e senza utilizzare servizi esterni. È sempre possibile cambiare lingua attraverso i collegamenti presenti sul sito."
 
 [[policy.sections]]
-title = "Email e telefono"
-text = "I link email e telefono aprono il programma di posta o l’applicazione telefonica del visitatore. Il sito non contiene moduli di raccolta dati. I dati comunicati volontariamente a IBIS saranno utilizzati per gestire la richiesta."
+title = "Richieste di contatto"
+text = "Il sito non contiene moduli di raccolta dati. I collegamenti email e telefono aprono le applicazioni del visitatore e permettono di contattare direttamente IBIS.\n\nI dati comunicati volontariamente, come nome, recapito e contenuto della richiesta, sono utilizzati per rispondere e gestire le relative comunicazioni.\n\nIl trattamento si basa:\n\n- sull’esecuzione di misure precontrattuali richieste dall’interessato, per le richieste finalizzate a instaurare un rapporto contrattuale, ai sensi dell’art. 6, par. 1, lett. b), del Regolamento;\n- sul legittimo interesse di IBIS a gestire la corrispondenza e rispondere alle altre richieste, ai sensi dell’art. 6, par. 1, lett. f), del Regolamento.\n\nIl conferimento dei dati è facoltativo. La mancata comunicazione delle informazioni necessarie può impedire di rispondere alla richiesta.\n\nLe semplici richieste informative che non danno luogo a un rapporto contrattuale vengono eliminate durante una revisione annuale, una volta trascorsi almeno 12 mesi dalla loro conclusione e comunque entro 24 mesi dalla conclusione. Per conclusione si intende l’ultima comunicazione che definisce la richiesta, senza ulteriori attività da svolgere.\n\nLa corrispondenza che costituisce documentazione di un rapporto contrattuale segue invece i termini di conservazione applicabili a tale rapporto e gli eventuali obblighi di legge. In caso di controversie, i dati pertinenti possono essere conservati per la loro gestione e la tutela dei diritti, fino alla definizione della controversia e degli eventuali adempimenti conseguenti."
 
 [[policy.sections]]
-title = "Diritti"
-text = "Nei casi previsti dal Regolamento (UE) 2016/679 è possibile chiedere accesso, rettifica, cancellazione, limitazione, portabilità e opposizione al trattamento, e revocare l’eventuale consenso. È possibile rivolgersi al contatto sopra indicato e proporre reclamo al Garante per la protezione dei dati personali."
+title = "Destinatari dei dati e hosting"
+text = "I dati possono essere trattati dai soggetti autorizzati di IBIS e dai fornitori dei servizi necessari al funzionamento del sito e alla gestione delle comunicazioni, tra cui hosting, assistenza tecnica e posta elettronica.\n\nI fornitori che trattano dati per conto di IBIS operano sulla base degli accordi previsti dall’art. 28 del Regolamento. I dati possono inoltre essere comunicati alle autorità competenti quando previsto dalla legge.\n\nIl sito è ospitato presso Hetzner, su un server situato in Finlandia. Per i trattamenti descritti nella presente informativa non sono previsti trasferimenti di dati personali al di fuori dello Spazio economico europeo.\n\nI dati personali non vengono diffusi."
 
-
-
+[[policy.sections]]
+title = "Diritti dell’interessato"
+text = "Nei casi previsti dal Regolamento (UE) 2016/679, è possibile chiedere l’accesso ai propri dati, la rettifica, la cancellazione, la limitazione del trattamento e la portabilità.\n\nÈ inoltre possibile opporsi ai trattamenti basati sul legittimo interesse per motivi connessi alla propria situazione particolare.\n\nLe richieste possono essere inviate a Isabel@ibissrl.it oppure alla PEC ibissrl@mypec.eu.\n\nÈ possibile proporre reclamo al Garante per la protezione dei dati personali, attraverso le modalità indicate sul sito www.garanteprivacy.it.\n\nNon vengono effettuate attività di profilazione né decisioni basate unicamente su trattamenti automatizzati che producano effetti giuridici o analogamente significativi sull’interessato."

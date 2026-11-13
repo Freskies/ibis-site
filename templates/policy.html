@@ -5,7 +5,15 @@
     <h1 id="policy-title">{{ texts.policy.title }}</h1>
     <p class="policy-intro">{{ texts.policy.intro }}</p>
     {% for section in texts.policy.sections %}
-    <section><h2>{{ section.title }}</h2><p>{{ section.text }}</p></section>
+    <section><h2>{{ section.title }}</h2>
+      {% for paragraph in section.text.split("\n\n") %}
+      {% if paragraph.starts_with("- ") %}
+      <ul>{% for item in paragraph.split("\n") %}<li>{{ item.trim_start_matches("- ") }}</li>{% endfor %}</ul>
+      {% else %}
+      <p>{% for part in paragraph.split("Isabel@ibissrl.it") %}{% if !loop.first %}<a href="mailto:Isabel@ibissrl.it">Isabel@ibissrl.it</a>{% endif %}{% for piece in part.split("ibissrl@mypec.eu") %}{% if !loop.first %}<a href="mailto:ibissrl@mypec.eu">ibissrl@mypec.eu</a>{% endif %}{% for fragment in piece.split("www.garanteprivacy.it") %}{% if !loop.first %}<a href="https://www.garanteprivacy.it">www.garanteprivacy.it</a>{% endif %}{{ fragment }}{% endfor %}{% endfor %}{% endfor %}</p>
+      {% endif %}
+      {% endfor %}
+    </section>
     {% endfor %}
   </article>
 {% endblock %}

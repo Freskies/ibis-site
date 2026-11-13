@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#173F56">
 	{% include "metadata.html" %}
+	<link rel="icon" href="../assets/favicon.ico" sizes="any">
 	<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
 	<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 	<link rel="stylesheet" href="../assets/palette.css">
@@ -16,7 +17,7 @@
 <header class="site-header">
 	<div class="header-inner wrap">
 		<a class="brand" href="index.html#top" aria-label="{{ texts.home_label }}"><img
-			src="../assets/logo-horizontal.svg" alt="{{ texts.company_name }}" width="620" height="300"></a>
+			src="../assets/logo-symbol.svg" alt="{{ texts.company_name }}" width="550" height="500"></a>
 		<nav class="main-nav" aria-label="{{ texts.main_navigation }}">
 			<a href="index.html#azienda">{{ texts.nav_about }}</a>
 			<a href="index.html#prodotti">{{ texts.nav_products }}</a>
@@ -41,6 +42,7 @@
 	<div class="wrap footer-inner">
 		<div class="footer-company" itemscope itemtype="https://schema.org/Organization">
 			<strong itemprop="name">{{ texts.company_name }}</strong>
+			<p>{{ texts.contact_location_label }}</p>
 			<address itemprop="address">{{ texts.address }}</address>
 			{% for detail in texts.company_details %}<p>{{ detail }}</p>{% endfor %}
 		</div>

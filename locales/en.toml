@@ -2,7 +2,7 @@
 language_name = "English"
 language_short = "EN"
 page_title = "IBIS Srl — Export management for Italian fruit"
-description = "Since 1994, IBIS Srl has managed exports of 100% Italian fresh fruit. Based in Ravenna, connecting Italian producers with international markets."
+description = "IBIS Srl, incorporated in 1994 and active since 1995, manages exports of 100% Italian fresh fruit. Based in Ravenna, connecting producers with international markets."
 skip_link = "Skip to content"
 home_label = "IBIS — top of page"
 main_navigation = "Main navigation"
@@ -15,14 +15,12 @@ chooser_intro = "IBIS Srl — Export management for Italian fruit."
 company_name = "IBIS Srl"
 hero_eyebrow = "IBIS SRL"
 hero_title = "Export management for Italian fruit."
-hero_intro = "Since 1994, IBIS Srl has operated in the export of 100% Italian fresh fruit."
+hero_intro = "Incorporated in 1994 and active since 1995, IBIS Srl operates in the export of 100% Italian fresh fruit."
 hero_link = "Our products"
 hero_contact = "Contact us"
-location = "Ravenna, Italy"
-since = "Since 1994"
 about_title = "About us"
 about_paragraphs = [
-  "Based in Ravenna, in the heart of Emilia-Romagna on the Adriatic coast, the company manages international customers on behalf of selected suppliers, cooperatives and private producers from various Italian regions, with whom it has worked continuously since its foundation.",
+  "Based in Ravenna, in the heart of Emilia-Romagna on the Adriatic coast, the company manages international customers on behalf of selected suppliers, cooperatives and private producers from various Italian regions, with whom it has worked continuously since it began operating.",
   "Our constant attention to markets, focus on innovation and care for detail have enabled us to represent leading companies in the sector and operate in more than 20 countries worldwide."
 ]
 products_title = "Our products"
@@ -30,17 +28,21 @@ products_intro = "Our core products are apples and kiwifruit, complemented by th
 services_title = "What we do"
 services_intro = "We are the bridge between the best Italian producers and international markets."
 contact_title = "Contact"
-contact_location_label = "Operating office"
+contact_location_label = "Registered and operating office"
+contact_pec_label = "Certified email (PEC)"
+company_pec = "ibissrl@mypec.eu"
 office_phone = "+390544502323"
 office_phone_label = "+39 0544 502323"
 
-address = "Viale Francesco Baracca 89, 48121 Ravenna (RA), Italy"
+address = "Viale Baracca 89, 48121 Ravenna (RA), Italy"
 company_details = [
   "VAT and tax ID: IT01286410392 / 01286410392",
+  "Ferrara and Ravenna Business Register: 01286410392",
   "REA: RA – 133634",
-  "Share capital: € 30,000.00"
+  "Subscribed share capital: € 30,000.00",
+  "Paid-up share capital: € 18,750.00"
 ]
-policy_link = "Cookie and privacy policy"
+policy_link = "Privacy and cookie policy"
 [[products]]
 name = "Apples & kiwifruit"
 detail = "Our core products."
@@ -72,35 +74,36 @@ text = "We provide comprehensive administrative, operational and logistical supp
 
 [[contacts]]
 name = "Isabella Tebaldi"
-title = "Export Managing Director"
+title = "Sole Director · Export Managing Director"
 email = "Isabel@ibissrl.it"
 phone = "+39335235488"
 phone_label = "+39 335 235488"
 
 [policy]
-description = "Privacy information, contact details and cookie-free, tracking-free operation of the IBIS Srl website."
-title = "Cookie and privacy policy"
-intro = "Information about the IBIS Srl website and available contact details."
+title = "Privacy and cookie policy"
+description = "This notice describes the processing of personal data when browsing the IBIS Srl website and when sending requests to the contacts listed."
+intro = "This notice describes the processing of personal data when browsing the IBIS Srl website and when sending requests to the contacts listed."
 
 [[policy.sections]]
-title = "Controller and contact details"
-text = "This website presents IBIS Srl. The address published on the company’s website is Viale Francesco Baracca 89, 48121 Ravenna (RA), Italy. Personal data enquiries can be sent to Isabel@ibissrl.it."
+title = "Data controller"
+text = "The data controller is IBIS Srl, with its registered office at Viale Baracca 89, 48121 Ravenna (RA), Italy, VAT and tax identification number 01286410392.\n\nFor information about the processing of personal data and to exercise your rights, you may write to Isabel@ibissrl.it or to the certified email (PEC) address ibissrl@mypec.eu."
 
 [[policy.sections]]
-title = "Cookies and tracking tools"
-text = "This version consists of static pages: it sets no cookies and uses no localStorage, analytics, advertising pixels or embedded third-party content. The entry page reads the language preferences exposed by the browser and opens the first available version in the preferred order; English is used if none match. Selection happens in the browser and is neither stored nor sent to external services. Standard links always allow manual language changes. This function uses no cookies, sessionStorage or other persistent storage."
+title = "Browsing and security"
+text = "Browsing involves the transmission of technical data necessary for the connection, including your IP address, the resources requested and information provided by your browser.\n\nThese data are processed to make pages available and ensure the operation and security of the website. The legal basis is IBIS’s legitimate interest in providing and protecting the service, pursuant to Article 6(1)(f) of Regulation (EU) 2016/679.\n\nSystematic recording of page visits is not enabled. The infrastructure may generate technical logs relating to operation, errors and security, which may contain personal data. The retention system for these logs is configured for 30 days, with automatic deletion through file rotation.\n\nTransmission of the data necessary for the connection is essential to access the website."
 
 [[policy.sections]]
-title = "Browsing and server logs"
-text = "The website is intended to be hosted on a server managed by the website provider and served using Caddy. Server requests transmit connection data such as an IP address and technical browser information. The absence of cookies and tracking does not mean that technical logs are absent."
+title = "Cookies and language preferences"
+text = "The website does not use cookies, traffic analytics tools, advertising pixels or other tracking and profiling tools. It does not use localStorage or sessionStorage and does not embed third-party content.\n\nThe home page reads the browser’s language preferences to open the first available version in the specified order. If there is no match, the English version opens.\n\nThis selection takes place in the browser, without storing the preference or using external services. You can always change language using the links on the website."
 
 [[policy.sections]]
-title = "Email and telephone"
-text = "Email and telephone links open the visitor’s email or phone application. The website has no data collection forms. Information voluntarily sent to IBIS will be used to handle the enquiry."
+title = "Contact requests"
+text = "The website does not contain data collection forms. Email and telephone links open the visitor’s applications and allow direct contact with IBIS.\n\nData provided voluntarily, such as your name, contact details and the content of your request, are used to respond and manage the related communications.\n\nProcessing is based on:\n\n- taking steps at the data subject’s request prior to entering into a contract, for requests intended to establish a contractual relationship, pursuant to Article 6(1)(b) of the Regulation;\n- IBIS’s legitimate interest in managing correspondence and responding to other requests, pursuant to Article 6(1)(f) of the Regulation.\n\nProviding data is optional. Failure to provide the necessary information may prevent us from responding to your request.\n\nSimple enquiries that do not lead to a contractual relationship are deleted during an annual review, at least 12 months after their conclusion and in any event within 24 months of their conclusion. Conclusion means the last communication that resolves the request, with no further action required.\n\nCorrespondence documenting a contractual relationship is instead subject to the retention periods applicable to that relationship and any legal obligations. In the event of disputes, relevant data may be retained to manage them and protect rights until the dispute and any resulting obligations have been resolved."
 
 [[policy.sections]]
-title = "Your rights"
-text = "Where applicable under Regulation (EU) 2016/679, you may request access, rectification, erasure, restriction, portability and object to processing, and withdraw any consent. You can use the contact above and lodge a complaint with the Italian Data Protection Authority."
+title = "Data recipients and hosting"
+text = "Data may be processed by authorised IBIS personnel and providers of services necessary for the operation of the website and management of communications, including hosting, technical support and email.\n\nProviders processing data on behalf of IBIS operate under the agreements required by Article 28 of the Regulation. Data may also be disclosed to the competent authorities where required by law.\n\nThe website is hosted by Hetzner on a server located in Finland. No transfers of personal data outside the European Economic Area are envisaged for the processing described in this notice.\n\nPersonal data are not made publicly available."
 
-
-
+[[policy.sections]]
+title = "Data subject rights"
+text = "Where provided for by Regulation (EU) 2016/679, you may request access to your data, rectification, erasure, restriction of processing and data portability.\n\nYou may also object to processing based on legitimate interest on grounds relating to your particular situation.\n\nRequests may be sent to Isabel@ibissrl.it or to the certified email (PEC) address ibissrl@mypec.eu.\n\nYou may lodge a complaint with the Italian Data Protection Authority (Garante per la protezione dei dati personali) using the procedures described at www.garanteprivacy.it.\n\nNo profiling or decisions based solely on automated processing that produce legal or similarly significant effects on the data subject are carried out."

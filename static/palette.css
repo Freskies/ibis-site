@@ -1,6 +1,5 @@
-/* IBIS - proposta palette v1.0 - 22 ottobre 2026. Spazio colore sRGB. */
+/* ibis - identità approvata - colori digitali sRGB */
 :root {
-  --ibis-white: #FFFFFF;
   --ibis-blue-50: #F1F6F9;
   --ibis-blue-100: #E1ECF2;
   --ibis-blue-200: #C4DAE5;
@@ -45,6 +44,8 @@
   --ibis-red-800: #752F2C;
   --ibis-red-900: #602B29;
   --ibis-red-950: #351412;
+  --ibis-white: #FFFFFF;
+  --ibis-world: #E5E7E5;
   --ibis-background: var(--ibis-neutral-50);
   --ibis-surface: var(--ibis-white);
   --ibis-text: var(--ibis-neutral-900);

@@ -19,7 +19,7 @@ dell’ingresso descrivono l’azienda anche nelle anteprime dei link.
 
     python -m http.server 8000 --directory dist --bind 127.0.0.1
 
-Visita http://127.0.0.1:8000/ 
+Visita http://127.0.0.1:8000/
 
 Output:
 
@@ -110,14 +110,22 @@ Le dimensioni reali dei target, reflow e focus vanno verificati anche nel browse
 
 ## Identità e contenuti
 
-| Asset in static         | Originale in reference                               | Uso                    |
-|-------------------------|------------------------------------------------------|------------------------|
-| logo-horizontal.svg     | Loghi/02-Orizzontale/SVG/IBIS-orizzontale-colore.svg | Header e scelta lingua |
-| logo-vertical-white.svg | Loghi/03-Verticale/SVG/IBIS-verticale-bianco.svg     | Hero su fondo blu      |
-| logo-mini.svg           | Loghi/04-Simbolo-minimo/SVG/IBIS-minimo-colore.svg   | Bullet attività        |
-| favicon.svg             | Web-favicon/favicon.svg                              | Icona browser          |
-| apple-touch-icon.png    | Web-favicon/apple-touch-icon.png                     | Icona Apple            |
-| palette.css             | Palette/IBIS-palette.css                             | Colori originali       |
+| Asset in static | Originale in reference | Uso |
+|---|---|---|
+| logo-wordmark.svg | loghi/06-scritta/svg/ibis-scritta-colore.svg | Scelta lingua |
+| logo-symbol.svg | loghi/02-simbolo/svg/ibis-simbolo-colore.svg | Navbar |
+| logo-general.svg | loghi/01-generale/svg/ibis-generale-colore.svg | Hero grande con mondo |
+| logo-mini.svg | loghi/05-simbolo-minimo/svg/ibis-minimo-colore.svg | Bullet attività |
+| favicon.svg, favicon.ico | web-favicon/ | Icone browser |
+| apple-touch-icon.png | web-favicon/apple-touch-icon.png | Icona Apple |
+| palette.css | palette/ibis-palette.css | Palette approvata |
+
+Identità aggiornata alla guida del 13 novembre 2026. Gli SVG sono copiati senza
+modificare disegni, colori o proporzioni. Il logo generale è mostrato su fondo
+chiaro ad almeno 600 px sui desktop; sotto 1100 px l’hero passa a una colonna.
+Anche sui telefoni viene mantenuto il logo generale con mondo, largo quanto lo
+spazio disponibile e con altezza proporzionale, senza altezza minima o padding nel pannello. L’header usa il simbolo completo a colori (96 px). Il pannello dell’hero ha
+fondo trasparente e lascia visibile lo sfondo della pagina. Il planisfero resta nella sola composizione generale.
 
 Nessuna guida, presentazione o variante non usata entra in dist.
 Nessuna fotografia è stata aggiunta. Font di sistema e Georgia.
@@ -126,34 +134,19 @@ Fonti dei dati aziendali:
 
 - https://www.ibissrl.biz/contatti: indirizzo operativo, nomi, email e telefoni.
 - https://www.ibissrl.biz/servizi-prodotti: conferma dei prodotti già nel brief.
-- https://www.ufficiocamerale.it/6499/ibis-srl: P.IVA/C.F. 01286410392,
-  REA RA-133634 e capitale €30.000,00; fonte commerciale, da verificare con visura.
-- https://www.to.camcom.it/book/export/html/8770: riferimenti ai dati societari.
+- `reference/visura 06 11 2026.pdf`: visura ordinaria del Registro Imprese
+  di Ferrara e Ravenna, estratta il 06/11/2026 (documento T 681230907).
+  Conferma IBIS SRL, sede legale in Viale Baracca 89, 48121 Ravenna (RA),
+  P.IVA/C.F. e iscrizione al Registro Imprese 01286410392, REA RA-133634,
+  PEC ibissrl@mypec.eu, capitale sottoscritto €30.000,00 e versato €18.750,00.
+  Costituzione: 11/11/1994; inizio attività: 06/02/1995; amministratrice unica:
+  Isabella Tebaldi. La società risulta attiva con due soci; non risulta in
+  liquidazione. I dati sono riportati nelle cinque lingue, nei contatti,
+  nel footer e nell'identificazione aziendale della privacy. La visura e i dati
+  personali dei soci (domicili, codici fiscali, date di nascita e PEC personale)
+  non vengono copiati nel sito.
 - https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9677876:
   riferimento su cookie e strumenti di tracciamento.
-
-## Cosa resta prima della pubblicazione
-
-1. Verificare con il cliente sede legale, Registro Imprese, capitale effettivamente
-   versato, eventuale socio unico/liquidazione e gli altri dati societari.
-2. Completare l’informativa: gestore e ubicazione del server, fornitori e log,
-   basi giuridiche e conservazione. Caddy non è stato ispezionato:
-   https://caddyserver.com/docs/caddyfile/directives/log
-3. Confermare i materiali del rebranding: i file di consegna riportano ancora
-   un’approvazione finale pendente. Gli avvisi redazionali sono stati rimossi
-   dalle pagine su richiesta, senza inventare i dati mancanti.
-4. Provare con NVDA su Windows, VoiceOver/Safari su iPhone e un telefono Android
-   reale; verificare anche ingrandimento testo e zoom al 200–400%.
-5. Preparare in Caddy redirect permanenti dalle vecchie pagine
-   /contatti, /servizi-prodotti e /descrizione-attivita verso le nuove sezioni.
-   Verificare dominio www/non-www, HTTPS, risposta 404 corretta, compressione,
-   cache e intestazioni di sicurezza.
-6. Dopo il deploy autorizzato, verificare HTTP/redirect, inviare la sitemap
-   in Search Console e controllare l’indicizzazione. Un’immagine social
-   dedicata è un miglioramento facoltativo, non ancora presente.
-
-Il sito è senza tracciamento, ma ciò non esclude dati di connessione o log
-del server. Nessun deploy o modifica a Caddy è stato eseguito.
 
 ## Navigazione interna senza cronologia
 
@@ -172,6 +165,12 @@ Il layout comune ora carica questo secondo piccolo script locale, mentre
 lo script di scelta lingua resta riservato all’ingresso.
 Verifiche aggiornate: cargo fmt, cargo check, cargo run --release e 12 test
 automatici superati, inclusi focus, URL invariato e rispetto dei link normali.
+
+## Cosa mi rimane da fare
+
+Dopo il deploy autorizzato, verificare HTTP/redirect, inviare la sitemap
+in Search Console e controllare l’indicizzazione. Un’immagine social
+dedicata è un miglioramento facoltativo, non ancora presente.
 
 ## Update on my server
 

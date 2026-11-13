@@ -2,7 +2,7 @@
 language_name = "Español"
 language_short = "ES"
 page_title = "IBIS Srl — Gestión de exportaciones de fruta italiana"
-description = "Desde 1994, IBIS Srl gestiona la exportación de fruta fresca 100 % italiana. Con sede en Rávena, conecta a los productores italianos con los mercados internacionales."
+description = "IBIS Srl, constituida en 1994 y activa desde 1995, gestiona la exportación de fruta fresca 100 % italiana. En Rávena, conecta productores y mercados internacionales."
 skip_link = "Saltar al contenido"
 home_label = "IBIS — inicio de la página"
 main_navigation = "Navegación principal"
@@ -15,14 +15,12 @@ chooser_intro = "IBIS Srl — Gestión de exportaciones de fruta italiana."
 company_name = "IBIS Srl"
 hero_eyebrow = "IBIS SRL"
 hero_title = "Gestión de exportaciones de fruta italiana."
-hero_intro = "Desde 1994, IBIS Srl se dedica a la exportación de fruta fresca 100 % italiana."
+hero_intro = "Constituida en 1994 y activa desde 1995, IBIS Srl se dedica a la exportación de fruta fresca 100 % italiana."
 hero_link = "Nuestros productos"
 hero_contact = "Contacte con nosotros"
-location = "Rávena, Italia"
-since = "Desde 1994"
 about_title = "Quiénes somos"
 about_paragraphs = [
-  "Con sede en Rávena, en el corazón de Emilia-Romaña, en la costa adriática, la empresa gestiona clientes internacionales en nombre de proveedores seleccionados, cooperativas y productores privados de distintas regiones italianas, con los que colabora de forma continuada desde su fundación.",
+  "Con sede en Rávena, en el corazón de Emilia-Romaña, en la costa adriática, la empresa gestiona clientes internacionales en nombre de proveedores seleccionados, cooperativas y productores privados de distintas regiones italianas, con los que colabora de forma continuada desde el inicio de su actividad.",
   "Nuestra atención constante a los mercados, nuestro interés por la innovación y nuestro cuidado por los detalles nos han permitido representar a empresas líderes del sector y operar en más de 20 países de todo el mundo."
 ]
 products_title = "Nuestros productos"
@@ -30,16 +28,20 @@ products_intro = "Nuestros productos principales son las manzanas y los kiwis, c
 services_title = "Qué hacemos"
 services_intro = "Somos el puente entre los mejores productores italianos y los mercados internacionales."
 contact_title = "Contacto"
-contact_location_label = "Oficina operativa"
+contact_location_label = "Domicilio social y oficina operativa"
+contact_pec_label = "Correo certificado (PEC)"
+company_pec = "ibissrl@mypec.eu"
 office_phone = "+390544502323"
 office_phone_label = "+39 0544 502323"
-address = "Viale Francesco Baracca 89, 48121 Ravenna (RA), Italia"
+address = "Viale Baracca 89, 48121 Ravenna (RA), Italia"
 company_details = [
   "N.º de IVA e identificación fiscal: IT01286410392 / 01286410392",
+  "Registro de Empresas de Ferrara y Rávena: 01286410392",
   "REA: RA – 133634",
-  "Capital social: 30.000,00 €"
+  "Capital social suscrito: 30.000,00 €",
+  "Capital social desembolsado: 18.750,00 €"
 ]
-policy_link = "Política de cookies y privacidad"
+policy_link = "Política de privacidad y cookies"
 
 [[products]]
 name = "Manzanas y kiwis"
@@ -71,32 +73,36 @@ text = "Ofrecemos apoyo integral en los ámbitos administrativo, operativo y log
 
 [[contacts]]
 name = "Isabella Tebaldi"
-title = "Directora general de exportación"
+title = "Administradora única · Directora general de exportación"
 email = "Isabel@ibissrl.it"
 phone = "+39335235488"
 phone_label = "+39 335 235488"
 
 [policy]
-description = "Información sobre privacidad, contactos y funcionamiento sin cookies ni seguimiento del sitio de IBIS Srl."
-title = "Política de cookies y privacidad"
-intro = "Información sobre el sitio de IBIS Srl y los contactos disponibles."
+title = "Política de privacidad y cookies"
+description = "Este aviso describe el tratamiento de datos personales durante la navegación por el sitio web de IBIS Srl y con motivo de las solicitudes enviadas a los contactos indicados."
+intro = "Este aviso describe el tratamiento de datos personales durante la navegación por el sitio web de IBIS Srl y con motivo de las solicitudes enviadas a los contactos indicados."
 
 [[policy.sections]]
-title = "Responsable del tratamiento y contactos"
-text = "Este sitio presenta a IBIS Srl. La dirección publicada en el sitio de la empresa es Viale Francesco Baracca 89, 48121 Ravenna (RA), Italia. Las consultas sobre datos personales pueden enviarse a Isabel@ibissrl.it."
+title = "Responsable del tratamiento"
+text = "El responsable del tratamiento es IBIS Srl, con domicilio social en Viale Baracca 89, 48121 Ravenna (RA), Italia, número de IVA y código fiscal 01286410392.\n\nPara obtener información sobre el tratamiento de datos personales y ejercer sus derechos, puede escribir a Isabel@ibissrl.it o a la dirección de correo electrónico certificado (PEC) ibissrl@mypec.eu."
 
 [[policy.sections]]
-title = "Cookies y herramientas de seguimiento"
-text = "Esta versión está compuesta por páginas estáticas: no instala cookies ni utiliza localStorage, herramientas de análisis, píxeles publicitarios o contenidos incrustados de terceros. La página de entrada lee las preferencias de idioma del navegador y abre la primera versión disponible en el orden indicado; si no hay coincidencias, abre la versión inglesa. Esta elección se realiza en el navegador y no se guarda ni se envía a servicios externos. Los enlaces permiten cambiar de idioma manualmente en cualquier momento. Esta función no utiliza cookies, sessionStorage ni ninguna otra forma de almacenamiento persistente."
+title = "Navegación y seguridad"
+text = "La navegación implica la transmisión de los datos técnicos necesarios para la conexión, entre ellos la dirección IP, los recursos solicitados y la información comunicada por el navegador.\n\nEstos datos se tratan para poner las páginas a disposición del usuario y garantizar el funcionamiento y la seguridad del sitio. La base jurídica es el interés legítimo de IBIS en prestar y proteger el servicio, conforme al artículo 6, apartado 1, letra f), del Reglamento (UE) 2016/679.\n\nNo está activo el registro sistemático de visitas a las páginas. La infraestructura puede generar registros técnicos relativos al funcionamiento, los errores y la seguridad, que pueden contener datos personales. El sistema de conservación de dichos registros está configurado para 30 días, con eliminación automática mediante la rotación de archivos.\n\nLa transmisión de los datos necesarios para la conexión es indispensable para consultar el sitio."
 
 [[policy.sections]]
-title = "Navegación y registros del servidor"
-text = "El sitio está previsto para alojarse en un servidor gestionado por el proveedor del sitio y servirse mediante Caddy. Las solicitudes al servidor transmiten datos de conexión, como la dirección IP e información técnica del navegador. La ausencia de cookies y seguimiento no implica la ausencia de registros técnicos."
+title = "Cookies y preferencias lingüísticas"
+text = "El sitio no utiliza cookies, herramientas de análisis del tráfico, píxeles publicitarios ni otras herramientas de seguimiento y elaboración de perfiles. No utiliza localStorage ni sessionStorage y no incorpora contenidos de terceros.\n\nLa página inicial lee las preferencias lingüísticas del navegador para abrir la primera versión disponible en el orden indicado. Si no hay coincidencias, se abre la versión inglesa.\n\nEsta selección se realiza en el navegador, sin almacenar la preferencia ni utilizar servicios externos. Siempre es posible cambiar de idioma mediante los enlaces del sitio."
 
 [[policy.sections]]
-title = "Correo electrónico y teléfono"
-text = "Los enlaces de correo electrónico y teléfono abren la aplicación de correo o de teléfono del visitante. El sitio no contiene formularios de recogida de datos. La información enviada voluntariamente a IBIS se utilizará para atender la consulta."
+title = "Solicitudes de contacto"
+text = "El sitio no contiene formularios de recogida de datos. Los enlaces de correo electrónico y teléfono abren las aplicaciones del visitante y permiten contactar directamente con IBIS.\n\nLos datos comunicados voluntariamente, como el nombre, los datos de contacto y el contenido de la solicitud, se utilizan para responder y gestionar las comunicaciones correspondientes.\n\nEl tratamiento se basa en:\n\n- la aplicación de medidas precontractuales a petición del interesado, para las solicitudes destinadas a establecer una relación contractual, conforme al artículo 6, apartado 1, letra b), del Reglamento;\n- el interés legítimo de IBIS en gestionar la correspondencia y responder a las demás solicitudes, conforme al artículo 6, apartado 1, letra f), del Reglamento.\n\nLa aportación de datos es voluntaria. La falta de la información necesaria puede impedir responder a la solicitud.\n\nLas simples consultas informativas que no den lugar a una relación contractual se eliminan durante una revisión anual, una vez transcurridos al menos 12 meses desde su conclusión y, en todo caso, dentro de los 24 meses siguientes a la conclusión. Se entiende por conclusión la última comunicación que resuelve la solicitud, sin más actuaciones pendientes.\n\nLa correspondencia que documente una relación contractual se rige por los plazos de conservación aplicables a dicha relación y las posibles obligaciones legales. En caso de litigio, los datos pertinentes pueden conservarse para su gestión y la defensa de los derechos, hasta la resolución del litigio y el cumplimiento de las posibles obligaciones resultantes."
 
 [[policy.sections]]
-title = "Sus derechos"
-text = "En los casos previstos por el Reglamento (UE) 2016/679, puede solicitar el acceso, la rectificación, la supresión, la limitación y la portabilidad de los datos, oponerse al tratamiento y retirar cualquier consentimiento otorgado. Puede utilizar el contacto indicado arriba y presentar una reclamación ante la autoridad italiana de protección de datos."
+title = "Destinatarios de los datos y alojamiento"
+text = "Los datos pueden ser tratados por las personas autorizadas de IBIS y por los proveedores de los servicios necesarios para el funcionamiento del sitio y la gestión de las comunicaciones, incluidos el alojamiento, la asistencia técnica y el correo electrónico.\n\nLos proveedores que tratan datos por cuenta de IBIS actúan conforme a los acuerdos previstos en el artículo 28 del Reglamento. Los datos también podrán comunicarse a las autoridades competentes cuando lo establezca la ley.\n\nEl sitio está alojado en Hetzner, en un servidor situado en Finlandia. Para los tratamientos descritos en este aviso no se prevén transferencias de datos personales fuera del Espacio Económico Europeo.\n\nLos datos personales no se difunden públicamente."
+
+[[policy.sections]]
+title = "Derechos del interesado"
+text = "En los casos previstos en el Reglamento (UE) 2016/679, puede solicitar el acceso a sus datos, la rectificación, la supresión, la limitación del tratamiento y la portabilidad.\n\nTambién puede oponerse a los tratamientos basados en el interés legítimo por motivos relacionados con su situación particular.\n\nLas solicitudes pueden enviarse a Isabel@ibissrl.it o a la dirección de correo electrónico certificado (PEC) ibissrl@mypec.eu.\n\nPuede presentar una reclamación ante la autoridad italiana de protección de datos (Garante per la protezione dei dati personali), mediante los procedimientos indicados en www.garanteprivacy.it.\n\nNo se realizan actividades de elaboración de perfiles ni decisiones basadas únicamente en tratamientos automatizados que produzcan efectos jurídicos o efectos similares significativamente relevantes para el interesado."

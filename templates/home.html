@@ -11,9 +11,7 @@
 		</div>
 	</div>
 	<div class="brand-panel">
-		<div class="panel-top"><span>{{ texts.location }}</span></div>
-		<img src="../assets/logo-vertical-white.svg" alt="" aria-hidden="true" width="400" height="435">
-		<p class="panel-bottom">{{ texts.since }}</p>
+		<img src="../assets/logo-general.svg" alt="" aria-hidden="true" width="1800" height="960">
 	</div>
 </section>
 <section id="azienda" class="about section wrap" aria-labelledby="about-title">
@@ -55,7 +53,7 @@
 			<p class="contact-company">{{ texts.company_name }}</p>
 			<p>{{ texts.contact_location_label }}</p>
 			<address>{{ texts.address }}</address>
-			<div class="contact-methods"><a href="tel:{{ texts.office_phone }}">{{ texts.office_phone_label }}</a></div>
+			<div class="contact-methods"><a href="tel:{{ texts.office_phone }}">{{ texts.office_phone_label }}</a><a href="mailto:{{ texts.company_pec }}">{{ texts.contact_pec_label }}: {{ texts.company_pec }}</a></div>
 			<ul class="contact-list" role="list">
 				{% for contact in texts.contacts %}
 				<li>

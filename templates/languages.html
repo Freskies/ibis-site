@@ -6,7 +6,8 @@
   <meta name="theme-color" content="#173F56">
   {% include "metadata.html" %}
   <script>{{ language_script|safe }}</script>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+	<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="stylesheet" href="assets/palette.css">
   <link rel="stylesheet" href="assets/style.css">
@@ -14,7 +15,7 @@
 </head>
 <body class="language-choice">
   <main class="choice-main">
-    <img class="choice-logo" src="assets/logo-horizontal.svg" alt="IBIS" width="620" height="300">
+    <img class="choice-logo" src="assets/logo-wordmark.svg" alt="IBIS" width="1430" height="1040">
     <h1>{% for (code, texts) in languages %}<span lang="{{ code }}">{{ texts.chooser_title }}</span>{% endfor %}</h1>
     {% for (code, texts) in languages %}<p lang="{{ code }}">{{ texts.chooser_intro }}</p>{% endfor %}
     <ul class="choice-links" role="list">

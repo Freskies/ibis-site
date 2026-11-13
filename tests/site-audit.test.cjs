@@ -154,6 +154,12 @@ test("Link, ancore, asset e assenza di risorse esterne o tracking", () => {
         const ref = n.attrs[attr];
         if (!ref || /^(mailto:|tel:)/.test(ref)) continue;
         if (/^https?:/.test(ref)) {
+          if (n.tag === "a") {
+            assert.equal(attr, "href");
+            assert.equal(ref, "https://www.garanteprivacy.it");
+            assert.equal(require("node:path").basename(file), "privacy.html");
+            continue;
+          }
           assert.equal(n.tag, "link");
           assert(["canonical", "alternate"].includes(n.attrs.rel));
           assert(ref.startsWith(origin + "/"));
